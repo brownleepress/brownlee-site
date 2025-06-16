@@ -10,6 +10,7 @@
             <a href="#">Shop</a>
             <a href="#">Resources</a>
             <a href="#">About</a>
+            <a href="incoming-orders.php">Orders</a>
             <a href="#"></a><img src="img/cart.png" alt="Brownlee Press" class="desktopCart" id=""/></a>
             <a href="#" class="upload-btn">Upload</a>   
           </nav>
