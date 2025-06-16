@@ -1,5 +1,5 @@
 <?php include '__001-top.php'; ?>
-  <title>Brownlee Press</title>
+  <title>Brownlee Press - 8.1</title>
 <?php include '__002-links.php'; ?>
 <!--inside head -->
   
