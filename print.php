@@ -16,30 +16,30 @@
         </div>
       </div>
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
-        <div class="home4"><a href=""><img src="img/PA.png" width="100%"></a></div>
-        <div class="home4"><a href=""><img src="img/CA.png" width="100%"></a></div>
-        <div class="home4"><a href=""><img src="img/BC.png" width="100%"></a></div>
-        <div class="home4"><a href=""><img src="img/ST.png" width="100%"></a></div>
+        <div class="home4"><a href="print-product.php"><img src="img/PA.png" width="100%"></a></div>
+        <div class="home4"><a href="print-product.php"><img src="img/CA.png" width="100%"></a></div>
+        <div class="home4"><a href="print-product.php"><img src="img/BC.png" width="100%"></a></div>
+        <div class="home4"><a href="print-product.php"><img src="img/ST.png" width="100%"></a></div>
       </div>  
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 30px 0; padding: 0; align-items: center;">
         <div class="home1-3">
           <h6 style="color: #777;">FOLDED</h6>
-          <a href="" class="offeringLink">Booklets</a>
-          <a href="" class="offeringLink">Greeting Cards</a>
-          <a href="" class="offeringLink">Bi-folds</a>
+          <a href="print-product.php" class="offeringLink">Booklets</a>
+          <a href="print-product.php" class="offeringLink">Greeting Cards</a>
+          <a href="print-product.php" class="offeringLink">Bi-folds</a>
         </div>
         <div class="home1-3">
           <h6 style="color: #777;">LARGE FORMAT</h6>
-          <a href="" class="offeringLink">Yard Signs</a>
-          <a href="" class="offeringLink">Banners</a>
-          <a href="" class="offeringLink">Mounted</a>
+          <a href="print-product.php" class="offeringLink">Yard Signs</a>
+          <a href="print-product.php" class="offeringLink">Banners</a>
+          <a href="print-product.php" class="offeringLink">Mounted</a>
         </div>
 
         <div class="home1-3">
           <h6 style="color: #777;">MISC.</h6>
-          <a href="" class="offeringLink">Envelopes</a>
-          <a href="" class="offeringLink">Notepads</a>
-          <a href="" class="offeringLink">VHS Boxes</a>
+          <a href="print-product.php" class="offeringLink">Envelopes</a>
+          <a href="print-product.php" class="offeringLink">Notepads</a>
+          <a href="print-product.php" class="offeringLink">VHS Boxes</a>
         </div>
       </div>
     </div>

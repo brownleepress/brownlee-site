@@ -8,9 +8,10 @@
         <div class="home1-2" style="align-items: center; margin-top: -70px; margin-bottom: 30px;">
           <h1 style="font-weight: 800; margin-bottom: 1rem;">Making<br>printing<br>...better</h1>
           <p style="margin-bottom: 1rem; font-weight: 600;">Sign up for updates, deals, and new drops.</p>
-            <input type="email" placeholder="your@email.com" style="padding: 2.25rem 2.5rem;" />
-            <button class="btn-green">Sign Up</button>
-           
+            <div style="display: inline-flex; align-items: flex-start; gap: 10px;">
+              <input type="email" placeholder="your@email.com" style="padding: 1.4rem 2rem; margin-bottom: 0; margin-top: 9px; font-size: 75%;" />
+              <button class="btn-green" style="font-size: 70%; padding-left: 1rem; padding-right: 1rem;">Sign Up</button>
+            </div>
         </div>
       </div>
     </div>
