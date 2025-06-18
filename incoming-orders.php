@@ -379,6 +379,170 @@
 
 
 
+<!-- JOB CARD -->
+<!-- JOB CARD -->
+<!-- JOB CARD -->
+<div class="order-card">
+  <div class="card-header">
+    <span>6/17</span>
+    <span>#15525</span>
+  </div>
+  <div class="customer-name">Tim Kelty</div>
+
+  <!-- START JOB -->
+  <div class="job-wrapper">
+    <a href="#"><img src="img/test.png" class="orderThumb" /></a>
+    <div class="job-block">
+      <a href="#" class="play-icon" play></a>
+      <a href="#" class="outsource-icon" outsource></a>
+      <a href="#" class="download-icon" complete></a>
+      <div class="job-main">
+        <a href="toggle_done.html" class="job-code">CA</a>
+        <div class="job-details">
+          <div class="line" style="font-size: 100%; font-weight: 500; margin-top:13px;">1200</div>
+          <div class="line">100#U</div>
+        </div>
+      </div>
+      <div class="job-basics">
+        <div>4/4</div>
+        <div>ROUND</div>
+        <div>4.25x5.5</div>
+      </div>
+      <!--      
+      <div class="instructions-toggle">SPECIAL INSTRUCTIONS</div>
+      <div class="instructions-content">Cut to circle - no white border</div>
+      -->  
+    </div>
+  </div>
+  <!-- END JOB -->
+
+  <!-- START JOB -->
+  <div class="job-wrapper">
+    <a href="#"><img src="img/_testinvite.png" class="orderThumb" /></a>
+    <div class="job-block">
+      <a href="#" class="play-icon" play></a>
+      <a href="#" class="outsource-icon" outsource></a>
+      <a href="#" class="download-icon" complete></a>
+      <div class="job-main">
+        <a href="toggle_done.html" class="job-code">VHS</a>
+        <div class="job-details">
+          <div class="line" style="font-size: 100%; font-weight: 500; margin-top:13px;">1</div>
+          <div class="line">VHS</div>
+        </div>
+      </div>
+      <div class="job-basics">
+        <div>4/0</div>
+        <div>PUNCH</div>
+        <div>12x10</div>
+      </div>
+      <div class="instructions-toggle">SPECIAL INSTRUCTIONS</div>
+      <div class="instructions-content">Cut to circle - no white border</div>
+    </div>
+  </div>
+  <!-- END JOB -->
+
+  
+
+  <div class="status-icons">
+    <img src="img/_holding.png" alt="Holding" class="active" />
+    <img src="img/_processing.png" alt="Processing" class="active" />
+    <img src="img/_printing.png" alt="Printing" class="active" />
+    <img src="img/_complete.png" alt="Complete" />
+  </div>
+</div>
+<!-- END JOB CARD -->
+<!-- END JOB CARD -->
+<!-- END JOB CARD -->
+
+
+
+
+
+
+
+
+<!-- JOB CARD -->
+<!-- JOB CARD -->
+<!-- JOB CARD -->
+<div class="order-card">
+  <div class="card-header">
+    <span>6/17</span>
+    <span>#15525</span>
+  </div>
+  <div class="customer-name">Jason Rodriguez</div>
+
+  <!-- START JOB -->
+  <div class="job-wrapper">
+    <a href="#"><img src="img/test.png" class="orderThumb" /></a>
+    <div class="job-block">
+      <a href="#" class="play-icon" play></a>
+      <a href="#" class="outsource-icon" outsource></a>
+      <a href="#" class="download-icon" complete></a>
+      <div class="job-main">
+        <a href="toggle_done.html" class="job-code">PA</a>
+        <div class="job-details">
+          <div class="line" style="font-size: 100%; font-weight: 500; margin-top:13px;">50</div>
+          <div class="line">100#S</div>
+        </div>
+      </div>
+      <div class="job-basics">
+        <div>4/0</div>
+        <div></div>
+        <div>8.5x5.5</div>
+      </div>
+      <!--      
+      <div class="instructions-toggle">SPECIAL INSTRUCTIONS</div>
+      <div class="instructions-content">Cut to circle - no white border</div>
+      -->  
+    </div>
+  </div>
+  <!-- END JOB -->
+
+  <!-- START JOB -->
+  <div class="job-wrapper">
+    <a href="#"><img src="img/_testinvite.png" class="orderThumb" /></a>
+    <div class="job-block">
+      <a href="#" class="play-icon" play></a>
+      <a href="#" class="outsource-icon" outsource></a>
+      <a href="#" class="download-icon" complete></a>
+      <div class="job-main">
+        <a href="toggle_done.html" class="job-code">BO</a>
+        <div class="job-details">
+          <div class="line" style="font-size: 100%; font-weight: 500; margin-top:13px;">12</div>
+          <div class="line">70#U/100#U</div>
+        </div>
+      </div>
+      <div class="job-basics">
+        <div>4/4</div>
+        <div>SS</div>
+        <div>6x9</div>
+      </div>
+      <div class="instructions-toggle">SPECIAL INSTRUCTIONS</div>
+      <div class="instructions-content">Cut to circle - no white border</div>
+    </div>
+  </div>
+  <!-- END JOB -->
+
+  
+
+  <div class="status-icons">
+    <img src="img/_holding.png" alt="Holding" class="active" />
+    <img src="img/_processing.png" alt="Processing" class="active" />
+    <img src="img/_printing.png" alt="Printing" class="active" />
+    <img src="img/_complete.png" alt="Complete" />
+  </div>
+</div>
+<!-- END JOB CARD -->
+<!-- END JOB CARD -->
+<!-- END JOB CARD -->
+
+
+
+
+
+
+
+
 
 
 
