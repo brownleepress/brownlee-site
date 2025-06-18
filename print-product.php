@@ -163,6 +163,49 @@
     background-color: #d35863;
     color: white;
   }
+
+.pricing-table {
+    text-align: center!important;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+  }
+
+  .pricing-table th,
+  .pricing-table td {
+    padding: 12px;
+    border: none;
+    text-align: center;
+  }
+
+  .pricing-table tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+
+  .pricing-table tr:nth-child(even) {
+    background-color: #eaeaea;
+  }
+
+  .pricing-table th {
+    font-weight: bold;
+    color: #222;
+  }
+
+  .pricing-table th span {
+  display: block;
+  font-weight: normal;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 4px;
+}
+
+  .pricing-table small {
+    display: block;
+    color: #666;
+    font-size: 0.8rem;
+    margin-top: 4px;
+  }
+  
 </style>
 
 
@@ -270,50 +313,7 @@
   </div>
 </form>
 
-<script>
-  document.querySelectorAll('#size-options .option-button').forEach(button => {
-    button.addEventListener('click', () => {
-      document.querySelectorAll('#size-options .option-button').forEach(btn => btn.classList.remove('selected'));
-      button.classList.add('selected');
 
-      document.querySelectorAll('.size-dropdown').forEach(drop => drop.classList.remove('active'));
-      const size = button.getAttribute('data-size');
-      const dropdown = document.getElementById(`size-dropdown-${size}`);
-      if (dropdown) dropdown.classList.add('active');
-    });
-  });
-
-  document.querySelectorAll('.paper-option').forEach(option => {
-    option.addEventListener('click', () => {
-      document.querySelectorAll('.paper-option').forEach(opt => opt.classList.remove('selected'));
-      option.classList.add('selected');
-    });
-  });
-  const uploadBox = document.getElementById('upload-box');
-const fileInput = document.getElementById('file-upload');
-
-uploadBox.addEventListener('click', () => fileInput.click());
-
-uploadBox.addEventListener('dragover', e => {
-  e.preventDefault();
-  uploadBox.style.borderColor = '#d35863';
-});
-
-uploadBox.addEventListener('dragleave', () => {
-  uploadBox.style.borderColor = 'lightgray';
-});
-
-uploadBox.addEventListener('drop', e => {
-  e.preventDefault();
-  uploadBox.style.borderColor = 'lightgray';
-  const file = e.dataTransfer.files[0];
-  fileInput.files = e.dataTransfer.files;
-
-  // Optional: Show file name or give feedback
-  uploadBox.innerText = `Selected: ${file.name}`;
-});
-
-</script>
 
 
 
@@ -328,7 +328,7 @@ uploadBox.addEventListener('drop', e => {
 
 
 <section class="section pink">
-    <div class="container widest">
+    <div class="container wide">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
         <div class="home1-3"><a href=""><img src="img/ST.png" width="100%"></a></div>
         <div class="home2-3">
@@ -345,13 +345,67 @@ uploadBox.addEventListener('drop', e => {
 
     <section class="section">
     <div class="container wide">
-      <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
-        <div class="home2-3" style="padding: 0 30px;">
-          <h3 style="margin-bottom: 25px;">Let's talk paper!</h3>
-          <p style="margin-bottom: 6px;">We've got a few options, but my shelves have been carefully-curated. Our 'house' stocks are all top-shelf, and any upgrades are beyond next level!</p>
-          <button class="button btn-primary">PAPER CENTRAL</button>
-       </div>
-       <div class="home1-3"><a href=""><img src="img/PA.png" width="100%"></a></div>
+      <div class="row" style="text-align: center; margin: 0; padding: 0;">
+       <div class="home1">   
+<table class="pricing-table">
+  <tr>
+    <th>QTY</th>
+    <th>Small<br><span>4x6</span></th>
+    <th>Medium<br><span>6x9</span></th>
+    <th>Large<br><span>9x12</span></th>
+    <th>XLarge<br><span>12x18</span></th>
+  </tr>
+  <tr>
+    <td><b>10</b></td>
+    <td>$9 <small>(0.90ea)</small></td>
+    <td>$10 <small>(1.00ea)</small></td>
+    <td>$13 <small>(1.30ea)</small></td>
+    <td>$25 <small>(2.50ea)</small></td>
+  </tr>
+  <tr>
+    <td><b>25</b></td>
+    <td>$19 <small>(0.76ea)</small></td>
+    <td>$21 <small>(0.84ea)</small></td>
+    <td>$25 <small>(1.00ea)</small></td>
+    <td>$44 <small>(1.76ea)</small></td>
+  </tr>
+  <tr>
+    <td><b>50</b></td>
+    <td>$30 <small>(0.60ea)</small></td>
+    <td>$35 <small>(0.70ea)</small></td>
+    <td>$40 <small>(0.80ea)</small></td>
+    <td>$75 <small>(1.50ea)</small></td>
+  </tr>
+  <tr>
+    <td><b>100</b></td>
+    <td>$50 <small>(0.50ea)</small></td>
+    <td>$60 <small>(0.60ea)</small></td>
+    <td>$75 <small>(0.75ea)</small></td>
+    <td>$115 <small>(1.15ea)</small></td>
+  </tr>
+  <tr>
+    <td><b>250</b></td>
+    <td>$90 <small>(0.36ea)</small></td>
+    <td>$115 <small>(0.46ea)</small></td>
+    <td>$140 <small>(0.56ea)</small></td>
+    <td>$225 <small>(0.90ea)</small></td>
+  </tr>
+  <tr>
+    <td><b>500</b></td>
+    <td>$125 <small>(0.25ea)</small></td>
+    <td>$175 <small>(0.35ea)</small></td>
+    <td>$225 <small>(0.45ea)</small></td>
+    <td>$400 <small>(0.80ea)</small></td>
+  </tr>
+  <tr>
+    <td><b>1000</b></td>
+    <td>$200 <small>(0.20ea)</small></td>
+    <td>$250 <small>(0.24ea)</small></td>
+    <td>$350 <small>(0.35ea)</small></td>
+    <td>$650 <small>(0.65ea)</small></td>
+  </tr>
+</table>
+        </div>
       </div>
     </div>
   </section>
@@ -441,6 +495,49 @@ uploadBox.addEventListener('drop', e => {
 <?php include '__005-java.php'; ?>
 <!--before /body -->
   
+<script>
+  document.querySelectorAll('#size-options .option-button').forEach(button => {
+    button.addEventListener('click', () => {
+      document.querySelectorAll('#size-options .option-button').forEach(btn => btn.classList.remove('selected'));
+      button.classList.add('selected');
 
+      document.querySelectorAll('.size-dropdown').forEach(drop => drop.classList.remove('active'));
+      const size = button.getAttribute('data-size');
+      const dropdown = document.getElementById(`size-dropdown-${size}`);
+      if (dropdown) dropdown.classList.add('active');
+    });
+  });
+
+  document.querySelectorAll('.paper-option').forEach(option => {
+    option.addEventListener('click', () => {
+      document.querySelectorAll('.paper-option').forEach(opt => opt.classList.remove('selected'));
+      option.classList.add('selected');
+    });
+  });
+  const uploadBox = document.getElementById('upload-box');
+const fileInput = document.getElementById('file-upload');
+
+uploadBox.addEventListener('click', () => fileInput.click());
+
+uploadBox.addEventListener('dragover', e => {
+  e.preventDefault();
+  uploadBox.style.borderColor = '#d35863';
+});
+
+uploadBox.addEventListener('dragleave', () => {
+  uploadBox.style.borderColor = 'lightgray';
+});
+
+uploadBox.addEventListener('drop', e => {
+  e.preventDefault();
+  uploadBox.style.borderColor = 'lightgray';
+  const file = e.dataTransfer.files[0];
+  fileInput.files = e.dataTransfer.files;
+
+  // Optional: Show file name or give feedback
+  uploadBox.innerText = `Selected: ${file.name}`;
+});
+
+</script>
 <!--before /body -->
 </body></html>

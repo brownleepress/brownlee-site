@@ -35,7 +35,7 @@ nav a { text-decoration: none; font-weight: 650; color: #777; text-transform: up
 
 .btn-primary:hover { background: #9e3840 !important; color: white; border-color: #D35863 !important; }
 
-.btn-green { background: #C3E6C9; !important; color: 222; }
+.btn-green { background: #C3E6C9 !important; color: 222; }
 
 .btn-green:hover { background: #9e3840 !important; color: white; }
 
@@ -771,35 +771,68 @@ a.footerLink:hover, a.footerLink:active { color: #222222; background: #C3E6C9; t
 /* HOME CUSTOM PRINT */
 /* HOME CUSTOM PRINT */
 /* HOME CUSTOM PRINT */
-.home4 { flex: 0 0 25%; box-sizing: border-box; padding: 0; margin: 0; }
-.home6 { flex: 0 0 16.66%; box-sizing: border-box; padding: 0; margin: 0; }
-.home1 { flex: 0 0 100%; box-sizing: border-box; padding: 0; margin: 0; }
-.home1-2 { flex: 0 0 50%; box-sizing: border-box; padding: 0; margin: 0; }
-.home1-3 { flex: 0 0 33.33%; box-sizing: border-box; padding: 0; margin: 0; }
-.home2-3 { flex: 0 0 66.66%; box-sizing: border-box; padding: 0; margin: 0; }
-.home1-4 { flex: 0 0 25%; box-sizing: border-box; padding: 0; margin: 0; }
-.home2-4 { flex: 0 0 25%; box-sizing: border-box; padding: 0; margin: 0; }
-.home3-4 { flex: 0 0 75%; box-sizing: border-box; padding: 0; margin: 0; }
+    .home4 {flex: 0 0 25%; box-sizing: border-box; padding: 0; margin: 0;}
+    .home6 {flex: 0 0 16.66%; box-sizing: border-box; padding: 0; margin: 0;}
+    .home1 {flex: 0 0 100%; box-sizing: border-box; padding: 0; margin: 0;}
+    .home1-2 {flex: 0 0 50%; box-sizing: border-box; padding: 0; margin: 0;}
+    .home1-3 {flex: 0 0 33.33%; box-sizing: border-box; padding: 0; margin: 0;}
+    .home2-3 {flex: 0 0 66.66%; box-sizing: border-box; padding: 0; margin: 0;}
+    .home1-4 {flex: 0 0 25%; box-sizing: border-box; padding: 0; margin: 0;}
+    .home2-4 {flex: 0 0 25%; box-sizing: border-box; padding: 0; margin: 0;}
+    .home3-4 {flex: 0 0 75%; box-sizing: border-box; padding: 0; margin: 0;}
+    
 
-@media (max-width: 1160px) { 
-.home1-2 {flex: 0 0 100%; }
-}
 
-@media (max-width: 768px) { 
-nav, #desktopLogo {display: none; }
-header { transition: none; }
-.mobile-header { display: flex; background: transparent; transition: none; }
-.home6 { flex: 0 0 33.33%; }
-.home4 { flex: 0 0 50%; }
-.home1-3, .home2-3, .home1-4, .home3-4 { flex: 0 0 100%; }
-}
 
-@media (max-width: 520px) { 
-.home6 {flex: 0 0 50%; }
-.home2-4 { flex: 0 0 50%; box-sizing: border-box; padding: 0; margin: 0; }
-}
 
-@media (max-width: 1620px) { 
-.logo {padding-left: 25px; }
-.upload-btn { margin-right: 25px;}
-}
+
+  
+
+
+    @media (max-width: 1160px) {
+      .home1-2 {flex: 0 0 100%;}
+    }
+    
+
+
+
+    @media (max-width: 768px) {
+      nav, #desktopLogo {
+        display: none;
+      }
+      header {
+        transition: none;
+      }
+      .mobile-header {
+        display: flex;
+        background: transparent;
+        transition: none;
+      }
+      .home6 {flex: 0 0 33.33%;}
+      .home4 {flex: 0 0 50%;}
+      .home1-3, .home2-3, .home1-4, .home3-4 {flex: 0 0 100%;}
+    }
+    
+    
+  
+  
+    @media (max-width: 520px) {
+      .home6 {flex: 0 0 50%;}
+      .home2-4 {flex: 0 0 50%; box-sizing: border-box; padding: 0; margin: 0;}
+    } 
+    
+    
+    
+    
+    
+    @media (max-width: 1620px) {
+      .logo {
+        padding-left: 25px;
+      }
+      .upload-btn {
+        margin-right: 25px;
+      }
+    }
+
+
+
