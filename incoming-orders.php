@@ -213,7 +213,7 @@
   right: -15px;
   z-index: 0;
   max-height: 75px;
-  transition: right 0.2s ease, transform 0.2s ease;
+  transition: right 0.2s ease, transform 0.4s ease;
   filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
 }
 
