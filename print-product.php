@@ -125,19 +125,20 @@
     width: 100%;
   }
 
-  .final-row input[type="number"] {
-    width: 100px;
-    padding: 12px 12px 10px 12px;
-    font-size: 1.75rem;
-    text-align: center;
-    -moz-appearance: textfield;
-  }
+  input.quantity[type="number"] {
+  width: 100px;
+  padding: 12px 12px 10px 12px;
+  font-size: 1.75rem;
+  text-align: center;
+  -moz-appearance: textfield;
+}
 
-  .final-row input[type="number"]::-webkit-outer-spin-button,
-.final-row input[type="number"]::-webkit-inner-spin-button {
+input.quantity[type="number"]::-webkit-outer-spin-button,
+input.quantity[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
 
   .price {
     font-size: 3rem;
@@ -206,6 +207,14 @@
     margin-top: 4px;
   }
   
+input.quantity:focus,
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+  border: 1px solid #777;
+}
 </style>
 
 
@@ -299,19 +308,32 @@
     </div>
   </div>
 
-  <h6 style="font-size: 0.92rem; padding-bottom: 6px; text-align: left;">UPLOAD FILES</h6>
+  
+<h6 style="font-size: 0.92rem; padding-bottom: 6px; text-align: left; margin-top: 0px;">UPLOAD FILES</h6>
   <div class="upload-dropbox" id="upload-box"><h6>Upload File(s)</h6></div>
     <input type="file" id="file-upload" name="file" style="display: none;">
+
+
   
-  <h6 style="font-size: 0.92rem; padding-bottom: 0px; text-align: left; margin-top: 5px;">SPECIAL INSTRUCTIONS</h6>
-  <textarea id="message" name="message" rows="6" placeholder="Type your message here..." style="width: 100%; padding: 12px; font-size: 1rem; margin: -9px 0 8px 0; height: 5rem;"></textarea>
-  
-  <div class="final-row">
-    <input type="number" placeholder="Quantity" value="250">
-    <div class="price"><span style="font-size: 70%; vertical-align: top;">$</span>45</div>
-    <button class="add-to-cart-button">ADD TO CART</button>
+ <div style="display: flex; gap: 20px; width: 100%; margin-bottom: -40px;">
+  <div style="flex: 0 0 100px;">
+    <h6 style="font-size: 0.92rem; padding-bottom: 6px; text-align: left;">QUANTITY</h6>
+    <input type="number" placeholder="Qty" value="250" class="quantity">
   </div>
-</form>
+  <div style="flex: 1;">
+    <h6 style="font-size: 0.92rem; padding-bottom: 6px; text-align: left;">SPECIAL INSTRUCTIONS</h6>
+    <textarea id="message" name="message" rows="6" placeholder="Type your message here..." style="width: 100%; padding: 12px; font-size: 1rem; height: 4.1rem;"></textarea>
+  </div>
+</div>
+
+
+
+    <hr style="border: none; border-top: 1px solid #ccc; margin: 20px 0;">
+
+<div class="final-row" style="padding-top: 1rem;">
+  <div class="price"><span style="font-size: 70%; vertical-align: top;">$</span>45</div>
+  <button class="add-to-cart-button">ADD TO CART</button>
+</div>
 
 
 
