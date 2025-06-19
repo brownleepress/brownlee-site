@@ -229,6 +229,42 @@ button:focus {
   outline: none;
   border: 1px solid #777;
 }
+
+.paper-info-row {
+  display: flex;
+  align-items: flex-start; 
+  gap: 16px;
+  margin-bottom: 20px;
+  text-align: left; 
+  padding: 0 20px;
+  margin-top: 15px;
+}
+
+.paper-info-row img {
+  width: 50px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.paper-info-text {
+  flex: 1;
+  text-align: left; 
+}
+
+.paper-info-text h6 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #d35863;
+}
+
+.paper-info-text p {
+  margin: 4px 0 0 0;
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.2;
+}
+
 </style>
 
 
@@ -444,6 +480,122 @@ button:focus {
       </div>
     </div>
   </section>
+
+
+
+
+
+
+
+
+<!-- PAPER --->
+ <section class="section" style="margin-bottom:0; padding-bottom: 0;">
+    <div class="container widest">
+      <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: top;">
+        
+        <div class="home1-3" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
+          <a href=""><img src="img/_STAN.png" width="100%"></a>
+          <h5 style="color: #D35863;">Standard</h5>
+          <p style="margin: 20px 0 25px 0;">
+            100# cover, uncoated or satin-coated. It's the go-to for solid, high-quality, bright white paper that's ready to get the job done and look great doing it.
+          </p>
+<div class="paper-info-row">
+  <img src="img/100U.png" alt="100# Uncoated" />
+  <div class="paper-info-text">
+    <h6>100# Uncoated</h6>
+    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+  </div>
+</div>
+
+<div class="paper-info-row">
+  <img src="img/100U.png" alt="100# Uncoated" />
+  <div class="paper-info-text">
+    <h6>100# Uncoated</h6>
+    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+  </div>
+</div>
+        
+        </div>
+        
+        <div class="home1-3" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
+          <a href=""><img src="img/_UPGRD.png" width="100%"></a>
+          <h5 style="color: #D35863;">Premium</h5>
+          <p style="margin: 20px 0 25px 0;">
+            Curated upgrades - it's the same good stuff... but better.
+          </p>
+<div class="paper-info-row">
+  <img src="img/100U.png" alt="100# Uncoated" />
+  <div class="paper-info-text">
+    <h6>100# Uncoated</h6>
+    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+  </div>
+</div>
+
+<div class="paper-info-row">
+  <img src="img/100U.png" alt="100# Uncoated" />
+  <div class="paper-info-text">
+    <h6>100# Uncoated</h6>
+    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+  </div>
+</div>
+
+<div class="paper-info-row">
+  <img src="img/100U.png" alt="100# Uncoated" />
+  <div class="paper-info-text">
+    <h6>100# Uncoated</h6>
+    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+  </div>
+</div>
+
+<div class="paper-info-row">
+  <img src="img/100U.png" alt="100# Uncoated" />
+  <div class="paper-info-text">
+    <h6>100# Uncoated</h6>
+    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+  </div>
+</div>
+
+        </div>
+        
+        <div class="home1-3" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
+          <a href=""><img src="img/_FREN.png" width="100%"></a>
+          <h5 style="color: #D35863;">Recycled</h5>
+          <p style="margin: 20px 0 25px 0;">
+            French Paper Co. - Made in Michigan. We offer 3 flavors, each with recycled specks and flecks, making every sheet unique. It's the best paper on the planet, IMHO. 
+          </p>
+ <div class="paper-info-row">
+  <img src="img/100U.png" alt="100# Uncoated" />
+  <div class="paper-info-text">
+    <h6>100# Uncoated</h6>
+    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+  </div>
+</div>
+
+<div class="paper-info-row">
+  <img src="img/100U.png" alt="100# Uncoated" />
+  <div class="paper-info-text">
+    <h6>100# Uncoated</h6>
+    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+  </div>
+</div>
+
+<div class="paper-info-row">
+  <img src="img/100U.png" alt="100# Uncoated" />
+  <div class="paper-info-text">
+    <h6>100# Uncoated</h6>
+    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+  </section>
+
+
+
+
+
 
 
 
