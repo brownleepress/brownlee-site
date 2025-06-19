@@ -221,11 +221,6 @@ input.quantity[type="number"]::-webkit-inner-spin-button {
     font-size: 0.9rem;
   }
   
-<<<<<<< HEAD
-=======
-  td {line-height: 1.45rem;}
-
->>>>>>> cbde506 (CSS changes and pricing table)
 input.quantity:focus,
 input:focus,
 textarea:focus,
@@ -234,17 +229,6 @@ button:focus {
   outline: none;
   border: 1px solid #777;
 }
-<<<<<<< HEAD
-=======
-
-.label-short {display: none;}
-
-@media screen and (max-width: 520px) 
-{.label-full {display: none;}
- .label-short {display: inline; font-size: 1.5rem;}}
-
-td b {font-weight: 700;}
->>>>>>> cbde506 (CSS changes and pricing table)
 </style>
 
 
