@@ -37,20 +37,36 @@
   .option-button:hover,
   .option-button.selected {
     background-color: #c3E6C9;
-    color: #222;
+    color: #615959;
   }
 
   .size-dropdown {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    display: none;
-    text-align: center;
+  display: none;
+  width: 100%;
+  margin-top: 20px;
+  padding: 0;
+  font-size: 1rem;
+  height: 42px;
+  line-height: 42px;
+  border: 1px solid #ccc!important;
+  border-radius: 6px;
+  background-color: white;
+  color: #615959;
+  text-align-last: center;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   }
 
   .size-dropdown.active {
     display: block;
+
   }
+
+select:has(option:checked:not(:first-child)) {
+  background-color: #c3E6C9; 
+  color: #615959;
+  border: 1px solid #ccc!important;}
 
   .printed-sides {
     display: flex;
@@ -76,7 +92,7 @@
 
   .printed-sides input[type="radio"]:checked + label {
     background-color: #c3E6C9;
-    color: #222;
+    color: #615959;
   }
 
   .paper-options {
@@ -143,13 +159,13 @@ input.quantity[type="number"]::-webkit-inner-spin-button {
   .price {
     font-size: 3rem;
     font-weight: bold;
-    color: #222;
+    color: #615959;
     margin: -18px 0 0px 0;
   }
 
   .add-to-cart-button {
     background-color: #c3E6C9;
-    color: #222;
+    color: #615959;
     font-weight: bold;
     font-size: 16px;
     padding: 18px 20px;
@@ -169,12 +185,13 @@ input.quantity[type="number"]::-webkit-inner-spin-button {
     text-align: center!important;
     width: 100%;
     border-collapse: collapse;
-    font-family: sans-serif;
+    min-width: 600px;
+    
   }
 
   .pricing-table th,
   .pricing-table td {
-    padding: 12px;
+    padding: 14px 16px 10px 16px;
     border: none;
     text-align: center;
   }
@@ -189,7 +206,7 @@ input.quantity[type="number"]::-webkit-inner-spin-button {
 
   .pricing-table th {
     font-weight: bold;
-    color: #222;
+    color: #615959;
   }
 
   .pricing-table th span {
@@ -197,16 +214,18 @@ input.quantity[type="number"]::-webkit-inner-spin-button {
   font-weight: normal;
   font-size: 0.9rem;
   color: #555;
-  margin-top: 4px;
 }
 
   .pricing-table small {
-    display: block;
     color: #666;
-    font-size: 0.8rem;
-    margin-top: 4px;
+    font-size: 0.9rem;
   }
   
+<<<<<<< HEAD
+=======
+  td {line-height: 1.45rem;}
+
+>>>>>>> cbde506 (CSS changes and pricing table)
 input.quantity:focus,
 input:focus,
 textarea:focus,
@@ -215,6 +234,17 @@ button:focus {
   outline: none;
   border: 1px solid #777;
 }
+<<<<<<< HEAD
+=======
+
+.label-short {display: none;}
+
+@media screen and (max-width: 520px) 
+{.label-full {display: none;}
+ .label-short {display: inline; font-size: 1.5rem;}}
+
+td b {font-weight: 700;}
+>>>>>>> cbde506 (CSS changes and pricing table)
 </style>
 
 
@@ -253,10 +283,10 @@ button:focus {
   <div>
     <h6 style="font-size: 0.92rem; padding-bottom: 6px; text-align: left;">SIZE</h6>
     <div class="option-group" id="size-options">
-      <div class="option-button" data-size="small">SMALL</div>
-      <div class="option-button" data-size="medium">MEDIUM</div>
-      <div class="option-button" data-size="large">LARGE</div>
-      <div class="option-button" data-size="xlarge">X-LARGE</div>
+        <div class="option-button" data-size="small"><span class="label-full">SMALL</span><span class="label-short">SM</span></div>
+         <div class="option-button" data-size="medium"><span class="label-full">MEDIUM</span><span class="label-short">MD</span></div>
+        <div class="option-button" data-size="large"><span class="label-full">LARGE</span><span class="label-short">LG</span></div>
+        <div class="option-button" data-size="xlarge"><span class="label-full">X-LARGE</span><span class="label-short">XL</span></div>
     </div>
     <select class="size-dropdown" id="size-dropdown-small">
       <option>Select a SMALL size option</option>
@@ -364,18 +394,17 @@ button:focus {
 
 
 
-
-    <section class="section">
+    <section class="section" style="overflow-x: auto; width: 100%; -webkit-overflow-scrolling: touch;">
     <div class="container wide">
       <div class="row" style="text-align: center; margin: 0; padding: 0;">
        <div class="home1">   
 <table class="pricing-table">
   <tr>
     <th>QTY</th>
-    <th>Small<br><span>4x6</span></th>
-    <th>Medium<br><span>6x9</span></th>
-    <th>Large<br><span>9x12</span></th>
-    <th>XLarge<br><span>12x18</span></th>
+    <th>SM</th>
+    <th>MD</th>
+    <th>LG</th>
+    <th>XL</th>
   </tr>
   <tr>
     <td><b>10</b></td>
@@ -424,7 +453,7 @@ button:focus {
     <td>$200 <small>(0.20ea)</small></td>
     <td>$250 <small>(0.24ea)</small></td>
     <td>$350 <small>(0.35ea)</small></td>
-    <td>$650 <small>(0.65ea)</small></td>
+    <td>$650<small> (0.65ea)</small></td>
   </tr>
 </table>
         </div>

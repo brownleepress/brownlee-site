@@ -4,7 +4,7 @@
 /* Base Styles */
 * { font-family: "Poppins", sans-serif; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
 
-body { font-size: 1.5em; line-height: 1.3; font-weight: 300; color: #222222; }
+body { font-size: 1.5em; line-height: 1.3; font-weight: 300; color: #615959; }
 
 /* NAVBAR */
 .navbar { position: fixed; top: 0; width: 100%; background: white; z-index: 999; transition: transform 0.3s ease; }
@@ -35,7 +35,7 @@ nav a { text-decoration: none; font-weight: 650; color: #777; text-transform: up
 
 .btn-primary:hover { background: #9e3840 !important; color: white; border-color: #D35863 !important; }
 
-.btn-green { background: #C3E6C9 !important; color: 222; }
+.btn-green { background: #C3E6C9 !important; color: 615959; }
 
 .btn-green:hover { background: #9e3840 !important; color: white; }
 
@@ -193,6 +193,8 @@ hr { margin-top: 3rem; margin-bottom: 3.5rem; border-width: 0; border-top: 1px s
 /**
  * block - Block text elements
  * */
+
+
 ul { list-style: circle inside; }
 
 ol { list-style: decimal inside; }
@@ -701,7 +703,7 @@ nav a:hover { color: #D35863; }
 
 .mobile-nav a:hover { background: #D35863; color: white; }
 
-a.mobile-login { color: #222222; font-size: 1.6rem; text-align: center; margin: 50px 0 10px 0; text-transform: none; font-weight: 300; }
+a.mobile-login { color: #615959; font-size: 1.6rem; text-align: center; margin: 50px 0 10px 0; text-transform: none; font-weight: 300; }
 
 a.mobile-login:hover { color: #D35863; background: none; }
 
@@ -739,18 +741,14 @@ a.offeringLink { color: #D35863; font-size: 2.7rem; text-decoration: none; font-
 /* FOOTER FOOTER FOOTER */
 footer { background: #f5eee9; padding: 2rem 1rem; text-align: center; font-size: 0.9rem; }
 
-a.footerLink { color: white; display: block; width: fit-content; cursor: pointer; margin: 0 auto; padding: 0.2rem 2.1rem; text-decoration: none; }
+a.footerLink { color: white; display: block; width: fit-content; cursor: pointer; margin: 7px auto; padding: 0.2rem 2.1rem; text-decoration: none; line-height: 1.45rem; }
 
-a.footerLink:hover, a.footerLink:active { color: #222222; background: #C3E6C9; transition: clip-path 0.9s ease; }
+a.footerLink:hover, a.footerLink:active { color: #615959; background: #C3E6C9; transition: clip-path 0.9s ease; }
 
 .footerLink.variant1:hover { clip-path: polygon(0% 5%, 95% 0%, 100% 35%, 90% 95%, 70% 100%, 5% 90%, 0% 65%, 5% 25%); }
-
 .footerLink.variant2:hover { clip-path: polygon(2% 3%, 97% 8%, 95% 35%, 100% 90%, 85% 100%, 10% 95%, 0% 60%, 3% 20%); }
-
 .footerLink.variant3:hover { clip-path: polygon(3% 10%, 98% 0%, 100% 40%, 93% 88%, 75% 100%, 8% 94%, 0% 70%, 5% 25%); }
-
 .footerLink.variant4:hover { clip-path: polygon(4% 0%, 90% 3%, 100% 30%, 95% 92%, 75% 100%, 10% 97%, 0% 68%, 6% 35%); }
-
 .footerLink.variant5:hover { clip-path: polygon(5% 5%, 93% 0%, 100% 25%, 95% 93%, 82% 100%, 15% 95%, 0% 65%, 6% 30%); }
 
 /* ACCORDION */

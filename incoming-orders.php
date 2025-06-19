@@ -51,30 +51,30 @@
   }
   .order-card .job-wrapper:nth-of-type(odd) .job-block {
   background-color: #f9f9f9;
-  color: #222 !important;
+  color: #615959 !important;
   }
   .order-card .job-wrapper:nth-of-type(even) .job-block {
   background-color: #e1e1e1;
-  color: #222 !important;
+  color: #615959 !important;
   }
   .job-block.done {
   background-color: #C3E6C9 !important;
-  color: #222 !important;
+  color: #615959 !important;
 }
 
 .job-block.done:hover {
   background-color: #C3E6C9 !important;
-  color: #222 !important;
+  color: #615959 !important;
 }
 
   .job-block.working {
   background-color: #e8fb67 !important;
-  color: #222 !important;
+  color: #615959 !important;
 }
 
 .job-block.working:hover {
   background-color: #e8fb67 !important;
-  color: #222 !important;
+  color: #615959 !important;
 }
 
 
@@ -187,7 +187,7 @@
     padding: 4px 8px;
     display: none;
     background: #f9f9f9;
-    color: #222;
+    color: #615959;
     border-top: 1px solid #ccc;
   }
   .status-icons {

@@ -9,7 +9,7 @@ body {
   font-size: 1.5em;
   line-height: 1.3;
   font-weight: 300;
-  color: #222222;
+  color: #615959;
 }
 
 
@@ -102,7 +102,7 @@ body {
 
 .btn-green {
   background: #C3E6C9; !important;
-  color: 222;
+  color: 615959;
 }
 .btn-green:hover {
   background: #9e3840 !important;
