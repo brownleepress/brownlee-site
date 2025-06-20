@@ -508,9 +508,9 @@ button:focus {
 </div>
 
 <div class="paper-info-row">
-  <img src="img/100U.png" alt="100# Uncoated" />
+  <img src="img/100S.png" alt="100# Uncoated" />
   <div class="paper-info-text">
-    <h6>100# Uncoated</h6>
+    <h6>100# Silk</h6>
     <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
   </div>
 </div>
@@ -524,33 +524,33 @@ button:focus {
             Curated upgrades - it's the same good stuff... but better.
           </p>
 <div class="paper-info-row">
-  <img src="img/100U.png" alt="100# Uncoated" />
+  <img src="img/120Silk.png" alt="100# Uncoated" />
   <div class="paper-info-text">
-    <h6>100# Uncoated</h6>
+    <h6>120# Silk</h6>
     <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
   </div>
 </div>
 
 <div class="paper-info-row">
-  <img src="img/100U.png" alt="100# Uncoated" />
+  <img src="img/130U.png" alt="100# Uncoated" />
   <div class="paper-info-text">
-    <h6>100# Uncoated</h6>
+    <h6>130# Uncoated</h6>
     <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
   </div>
 </div>
 
 <div class="paper-info-row">
-  <img src="img/100U.png" alt="100# Uncoated" />
+  <img src="img/c1s.png" alt="100# Uncoated" />
   <div class="paper-info-text">
-    <h6>100# Uncoated</h6>
+    <h6>Coated-1-Side</h6>
     <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
   </div>
 </div>
 
 <div class="paper-info-row">
-  <img src="img/100U.png" alt="100# Uncoated" />
+  <img src="img/c2s.png" alt="100# Uncoated" />
   <div class="paper-info-text">
-    <h6>100# Uncoated</h6>
+    <h6>Coated-2-Sides</h6>
     <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
   </div>
 </div>
@@ -561,28 +561,28 @@ button:focus {
           <a href=""><img src="img/_FREN.png" width="100%"></a>
           <h5 style="color: #D35863;">Recycled</h5>
           <p style="margin: 20px 0 25px 0;">
-            French Paper Co. - Made in Michigan. We offer 3 flavors, each with recycled specks and flecks, making every sheet unique. It's the best paper on the planet, IMHO. 
+            French Paper Co. - Made in Michigan. We offer 3 flavors of 100# cover, each with recycled specks and flecks, making every sheet unique. 
           </p>
  <div class="paper-info-row">
-  <img src="img/100U.png" alt="100# Uncoated" />
+  <img src="img/FR_SW.png" alt="100# Uncoated" />
   <div class="paper-info-text">
-    <h6>100# Uncoated</h6>
+    <h6>Starch White</h6>
     <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
   </div>
 </div>
 
 <div class="paper-info-row">
-  <img src="img/100U.png" alt="100# Uncoated" />
+  <img src="img/FR_MB.png" alt="100# Uncoated" />
   <div class="paper-info-text">
-    <h6>100# Uncoated</h6>
+    <h6>Madero Beach</h6>
     <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
   </div>
 </div>
 
 <div class="paper-info-row">
-  <img src="img/100U.png" alt="100# Uncoated" />
+  <img src="img/FR_MY.png" alt="100# Uncoated" />
   <div class="paper-info-text">
-    <h6>100# Uncoated</h6>
+    <h6>Manila Yellow</h6>
     <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
   </div>
 </div>
