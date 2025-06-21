@@ -16,10 +16,10 @@
         </div>
         <div class="heroBlurb" style="display: flex; flex-direction: column; justify-content: center; text-align: center; padding:">
           <h1>Making printing... <strong>better.</strong></h1>
-          <p style="margin-bottom: 10px; padding: 0 20px;">Every order is dialed in, intentional, and high quality. You'll be working directly with a real person (me).</p>
+          <p style="margin-bottom: 10px; padding: 0 20px;">Here are some things I'm working on.</p>
           <div style="display: flex; flex: 0 0 auto; gap: 1rem; justify-content: center; padding: 0 20px;">
-            <button class="button btn-primary">Custom Printing</button>
-            <button class="button btn-primary" style="background:#999">Brownlee Merch</button>
+            <a class="button btn-primary" href="incoming-orders.php">ORDERS</a>
+            <a class="button btn-green" href="print-product.php">PRINT PRODUCT</a>
           </div>
         </div>
       </div>
@@ -72,31 +72,7 @@
     </div>
   </section>
 
-<!-- CONTAINER TEST -->
- <section class="section pink">
-    <div class="container wide" style="background: #777; text-align: center;">
-      <h2>WIDE!</h2>
-    </div>
-  </section>
 
-   <section class="section">
-    <div class="container wider" style="background: #777; text-align: center;">
-      <h2>WIDE!</h2>
-    </div>
-  </section>
-
-   <section class="section pink">
-    <div class="container widest" style="background: #777; text-align: center;">
-      <h2>WIDE!</h2>
-    </div>
-  </section>
-
-   <section class="section">
-    <div class="container" style="background: #777; text-align: center;">
-      <h2>Full 1600</h2>
-    </div>
-  </section>
-<!-- CONTAINER TEST -->
 
 
 

@@ -6,7 +6,9 @@
 * { font-family: "Poppins", sans-serif; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
 body { font-size: 1.5em; line-height: 1.3; font-weight: 300; color: #615959; }
 
-
+/*██████████████████████████████████████*/
+/*█::::::: NAVIGATION :::::::::::::::::█*/
+/*██████████████████████████████████████*/
 /* LOGO */
 .logo { display: flex; align-items: center; justify-content: center; }
 .logo img { width: 150px; height: auto !important; aspect-ratio: auto; }
@@ -75,7 +77,9 @@ body { font-size: 1.5em; line-height: 1.3; font-weight: 300; color: #615959; }
 
 
 
-
+/*██████████████████████████████████████*/
+/*█::::::: CLICK IT :::::::::::::::::::█*/
+/*██████████████████████████████████████*/
 /* LINKS */
 a { color: #1eaedb; }
 a:hover { color: #1b9cc5; }
@@ -185,11 +189,9 @@ hr {padding: 25px 0; border-width: 0px; border-top: 1px solid #ccc !important; d
 
 .switch input[type="checkbox"]:checked ~ label:before { background-color: #33c3f0; color: white; }
 
-/**
- * block - Block text elements
- * */
-
-
+/*██████████████████████████████████████*/
+/*█::::::: BLOCK STUFF / RESETS :::::::█*/
+/*██████████████████████████████████████*/
 ul { list-style: circle inside; }
 
 ol { list-style: decimal inside; }
@@ -204,12 +206,11 @@ ul ul { margin: 1.5rem 0 1.5rem 3rem; font-size: 90%; }
 
 li { margin-bottom: 1rem; }
 
-/**
- * Tables
- *
- * */
-th,
-td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #E1E1E1; }
+/*██████████████████████████████████████*/
+/*█::::::: TABLES :::::::::::::::::::::█*/
+/*██████████████████████████████████████*/
+
+th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #E1E1E1; }
 
 th:first-child,
 td:first-child { padding-left: 0; }
@@ -217,88 +218,36 @@ td:first-child { padding-left: 0; }
 th:last-child,
 td:last-child { padding-right: 0; }
 
-/**
- * Code
- *
- * */
+/*██████████████████████████████████████*/
+/*█::::::: CODE :::::::::::::::::::::::█*/
+/*██████████████████████████████████████*/
+
 code { padding: .2rem .5rem; margin: 0 .2rem; font-size: 90%; white-space: nowrap; background: #f1f1f1; border: 1px solid #e1e1e1; border-radius: 4px; }
 
 pre > code { display: block; padding: 1rem 1.5rem; white-space: pre; }
 
-/**
- * Badge
- *
- * */
-.badge { background-color: #33c3f0; color: #ffffff; padding: .2rem .4rem; margin: .5rem; border-radius: 4px; font-size: 10px; font-weight: 800; }
 
-/**
- * Alert
- *
- * */
-.alert { background-color: #33c3f0; color: #ffffff; width: 100%; padding: 1rem 1.5rem; border-radius: 4px; margin-bottom: 1rem; box-sizing: border-box; font-weight: 800; }
+/*██████████████████████████████████████*/
+/*█::::::: BUTTONS ::::::::::::::::::::█*/
+/*██████████████████████████████████████*/
 
-.alert [data-toggle="dismiss"] { color: white; }
+.button { padding: 0.5rem 1rem 0.5rem 1rem; border: none; border-radius: 4px; text-decoration: none; font-size: 1.25rem; font-weight: 500; cursor: pointer; }
+.button:hover {  }
 
-/**
- * Panel
- *
- * */
-.panel { padding: 2rem 2rem; margin: 0 .2rem; border: 1px solid #bbbbbb; border-radius: 4px; background-color: white; }
+.btn-primary { background: #D35863; color: #fff; }
+.btn-primary:hover { background: #b84a56; color: #fff; }
+.btn-green { background: #4f4a4a; color: #C3E6C9; }
+.btn-green:hover { background: #a8d6af; color: #222; }
+.btn-grey { background: #615959; color: #fff; }
+.btn-grey:hover { background: #4f4a4a; color: #fff; }
 
-/**
- * button - Buttons
- * */
-/**
- * Regular buttons
- *
- * */
-.button,
-button { padding: 1rem 2rem; border: none; border-radius: 6px; font-weight: 600; text-decoration: none; margin-top: 8px; display: inline-flex; align-items: center; justify-content: center; font-size: 1.6rem; text-transform: uppercase; height: auto; transition: background-color 0.2s ease, color 0.2s ease; line-height: 1.65rem; cursor: pointer; width: auto; }
+ 
 
-.button:hover,
-button:hover { background-color: #b84251; color: #ffffff; outline: 0; }
 
-.button:focus,
-button:focus { background-color: #b84251; color: #ffffff; outline: 0; }
 
-.button:disabled,
-button:disabled { color: #bfbfbf; border-color: #e1e1e1; cursor: not-allowed; }
-
-.button.button-primary,
-button.button-primary { color: #ffffff; background-color: #33c3f0; border-color: #33c3f0; }
-
-.button.button-primary:hover,
-button.button-primary:hover { color: #ffffff; background-color: #1bbcee; border-color: #1bbcee; }
-
-.button.button-primary:focus,
-button.button-primary:focus { color: #ffffff; background-color: #1bbcee; border-color: #1bbcee; }
-
-.button.button-success,
-button.button-success { color: #ffffff; background-color: #5cb85c; border-color: #5cb85c; }
-
-.button.button-success:hover,
-button.button-success:hover { color: #ffffff; background-color: #4cae4c; border-color: #4cae4c; }
-
-.button.button-success:focus,
-button.button-success:focus { color: #ffffff; background-color: #4cae4c; border-color: #4cae4c; }
-
-.button.button-warning,
-button.button-warning { color: #ffffff; background-color: #ec971f; border-color: #ec971f; }
-
-.button.button-warning:hover,
-button.button-warning:hover { color: #ffffff; background-color: #df8a13; border-color: #df8a13; }
-
-.button.button-warning:focus,
-button.button-warning:focus { color: #ffffff; background-color: #df8a13; border-color: #df8a13; }
-
-.button.button-danger,
-button.button-danger { color: #ffffff; background-color: #d9534f; border-color: #d9534f; }
-
-.button.button-danger:hover,
-button.button-danger:hover { color: #ffffff; background-color: #d43f3a; border-color: #d43f3a; }
-
-.button.button-danger:focus,
-button.button-danger:focus { color: #ffffff; background-color: #d43f3a; border-color: #d43f3a; }
+/*██████████████████████████████████████*/
+/*█::::::: INPUTS  ::::::::::::::::::::█*/
+/*██████████████████████████████████████*/
 
 input[type="submit"],
 input[type="reset"],
@@ -376,21 +325,20 @@ input.button-primary[type="submit"]:focus,
 input.button-primary[type="reset"]:focus,
 input.button-primary[type="button"]:focus { color: #ffffff; background-color: #1bbcee; border-color: #1bbcee; }
 
-/**
- * dropdown - Dropdown
- *
- * */
+/*██████████████████████████████████████*/
+/*█::::::: DROP DOWN ::::::::::::::::::█*/
+/*██████████████████████████████████████*/
+
 select { padding-right: 30px; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
 select:-moz-focusring { color: transparent; text-shadow: 0 0 0 #000; }
 select::-ms-expand { display: none; }
 label.select { display: inline; }
 label.select:after { color: #333333; margin-left: -27.5px; content: "\f0d7"; font-family: "FontAwesome"; }
 
-/**
- * grid - Grid system
- *
- * */
-/* Base Grid (unchanged) */
+/*██████████████████████████████████████*/
+/*█::::::: THE GRID :::::::::::::::::::█*/
+/*██████████████████████████████████████*/
+
 .container { position: relative; width: 100%; max-width: 1600px; margin: 0 auto; padding: 0 20px; box-sizing: border-box; }
 .wide { max-width: 850px; }
 .wider { max-width: 1200px; }
@@ -477,49 +425,37 @@ label.select:after { color: #333333; margin-left: -27.5px; content: "\f0d7"; fon
 
 
 
-/**
- * typography - Typography
- * */
+/*██████████████████████████████████████*/
+/*█::::::: TYPE ::::::::::::::::::::█*/
+/*██████████████████████████████████████*/
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 { margin-top: 0; margin-bottom: 0; font-weight: 700; line-height: 0.95em; }
-
 h1 { font-size: 4.0rem; }
-
 h2 { font-size: 3.6rem; }
-
 h3 { font-size: 3.0rem; }
-
 h4 { font-size: 2.5rem; }
-
 h5 { font-size: 1.5rem; }
-
 h6 { font-size: 1rem; letter-spacing: 0; margin-bottom: 8px; }
 
 /* Larger than phablet */
 @media (min-width: 550px) { h1 {font-size: 5.0rem; }
-
 h2 { font-size: 4.2rem; }
-
 h3 { font-size: 3.6rem; }
-
 h4 { font-size: 3.0rem; }
-
 h5 { font-size: 2.4rem; }
-
 h6 { font-size: 1.5rem; }
 
 }
 p { margin-top: 0; }
 
-/**
- * spacing - Spacing
- *
- *
- * */
+/*██████████████████████████████████████*/
+/*█::::::: SPACING ::::::::::::::::::::█*/
+/*██████████████████████████████████████*/
+
 button,
 .button { margin-bottom: 1rem; }
 
@@ -538,10 +474,9 @@ ul,
 ol,
 form { margin-bottom: 2.5rem; }
 
-/**
- * input - Text-like input elements
- *
- * */
+/*██████████████████████████████████████*/
+/*█::::::: INPUT2  ::::::::::::::::::::█*/
+/*██████████████████████████████████████*/
 textarea,
 select { height: 38px; padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */ background-color: #ffffff; border: 1px solid #d1d1d1; border-radius: 4px; box-shadow: none; box-sizing: border-box; -webkit-appearance: none; -moz-appearance: none; appearance: none; }
 
