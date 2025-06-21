@@ -1,37 +1,47 @@
-<header>
-    <div class="container" style="width: 100%;">
-      <div class="row" style="align-items: center;">
-        <div class="two columns">
-          <a href="."><img src="img/bp-logo.png" alt="Brownlee Press" class="logo" id="desktopLogo"/></a>
-        </div>
-        <div class="ten columns" style="text-align: right;">
-          <nav>
-            <a href="print.php">Print</a>
-            <a href="#">Shop</a>
-            <a href="#">Resources</a>
-            <a href="#">About</a>
-            <a href="incoming-orders.php">Orders</a>
-            <a href="#"></a><img src="img/cart.png" alt="Brownlee Press" class="desktopCart" id=""/></a>
-            <a href="#" class="upload-btn">Upload</a>   
-          </nav>
-        </div>
-      </div>
+<header class="navbar">
+  <div class="navbar-content">
+    <!-- Mobile Hamburger -->
+    <button class="nav-toggle" onclick="toggleMobileNav()">
+      <img src="img/ham.png" alt="Menu" class="icon">
+    </button>
+
+    <!-- Logo -->
+    <div class="logo">
+      <a href="."><img src="img/bp-logo.png" alt="Brownlee Press"></a>
     </div>
-    <div class="mobile-header">
-      <img src="img/ham.png" alt="Menu" class="icon" id="menuIcon" onclick="toggleMobileNav()">
-      <img src="img/bp-logo.png" alt="Logo" class="logo" id="mobileLogo">
-      <img src="img/cart.png" alt="Cart" class="icon" id="cart">
+
+    <!-- Mobile Cart -->
+    <div class="mobile-cart">
+      <a href="#"><img src="img/cart.png" alt="Cart" class="icon"></a>
     </div>
-    <div class="mobile-nav" id="mobileNav">
-      <div>
-        <a href="#">Print</a>
-        <a href="#">Shop</a>
-        <a href="#">Resources</a>
-        <a href="#">About</a>
-      </div>
-      <div>
-        <a href="#" class="mobile-login">Login / Account</a>
-        <a href="#" class="mobile-upload">Upload</a>
-      </div>
+
+    <!-- Desktop Nav -->
+    <nav class="nav desktop-nav">
+      <a href="print.php">Print</a>
+      <a href="#">Shop</a>
+      <a href="#">Resources</a>
+      <a href="#">About</a>
+      <a href="incoming-orders.php">Orders</a>
+    </nav>
+
+    <!-- Desktop Actions -->
+    <div class="nav-actions desktop-nav">
+      <a href="#"><img src="img/cart.png" alt="Cart" class="icon"></a>
+      <a href="#" class="upload-btn btn-primary">Login</a>
     </div>
-  </header>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <nav>
+      <a href="print.php">Print</a>
+      <a href="#">Shop</a>
+      <a href="#">Resources</a>
+      <a href="#">About</a>
+      <a href="incoming-orders.php">Orders</a>
+    </nav>
+    <div class="mobile-actions">
+      <a href="#" class="upload-btn">Upload</a> <a href="#" class="mobile-login-btn">Login / Register</a> 
+    </div>
+  </div>
+</header>

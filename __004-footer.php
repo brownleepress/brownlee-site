@@ -2,10 +2,10 @@
   <section class="section" style="background: #D35863; padding: 7rem 1rem 0rem 1rem; position: relative; color: white; overflow: visible;">
     <div class="container wider" style="margin: 0 auto; position: relative; z-index: 2;">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: top;">
-        <div class="home1-2" style="margin-bottom: -100px;">
+        <div class="column one-half md-twelve sm-twelve" style="margin-bottom: -100px;">
           <img src="img/billOnPrinter.png" alt="Bill on Printer" style="max-width: 100%; position: relative; top: -190px; left: 0; z-index: 3;" />
         </div>
-        <div class="home1-2" style="align-items: center; margin-top: -70px; margin-bottom: 30px;">
+        <div class="column one-half md-twelve sm-twelve" style="align-items: center; margin-top: -70px; margin-bottom: 30px;">
           <h1 style="font-weight: 800; margin-bottom: 1rem;">Making<br>printing<br>...better</h1>
           <p style="margin-bottom: 1rem; font-weight: 600;">Sign up for updates, deals, and new drops.</p>
             <div style="display: inline-flex; align-items: flex-start; gap: 10px;">
@@ -19,7 +19,7 @@
     <div class="container widest" style="z-index: 5;">
       <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center;">
       
-      <div class="home2-4" style="padding: 0; margin: 0;">
+      <div class="column one-fourth md-one-third sm-one-half" style="padding: 0; margin: 0;">
         <h6 style="font-weight: bold; margin-bottom: 0.5rem;">PRINT</h6>
         <p>
           <a href="#" class="footerLink">Paper</a>
@@ -35,7 +35,7 @@
         </p>
       </div>
 
-      <div class="home2-4" style="padding: 0; margin: 0;">
+      <div class="column one-fourth md-one-third sm-one-half" style="padding: 0; margin: 0;">
         <h6 style="font-weight: bold; margin-bottom: 0.5rem;">LG. FORMAT</h6>
         <p>
           <a href="#" class="footerLink">Yard Signs</a>
@@ -50,7 +50,7 @@
         </p>
       </div>
 
-      <div class="home2-4" style="padding: 0; margin: 0;">
+      <div class="column one-fourth md-one-third sm-one-half" style="padding: 0; margin: 0;">
         <h6 style="font-weight: bold; margin-bottom: 0.5rem;">SHOP</h6>
         <p>
           <a href="#" class="footerLink">Prints</a>
@@ -63,7 +63,7 @@
         </p>
       </div>
 
-      <div class="home2-4" style="padding: 0; margin: 0;">
+      <div class="column one-fourth md-twelve sm-one-half" style="padding: 0; margin: 0;">
         <p>
           <a href="#" class="footerLink">About</a>
           <a href="#" class="footerLink">Resources</a>

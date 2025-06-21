@@ -19,7 +19,7 @@
 
   .option-button {
     flex: 1 1 25%;
-    padding: 25px;
+    padding: 20px 15px;
     text-align: center;
     cursor: pointer;
     font-weight: bold;
@@ -264,6 +264,9 @@ button:focus {
   color: #444;
   line-height: 1.2;
 }
+@media (min-width: 920px) and (max-width: 1200px) { .paper-info-row img { display: none !important; } .paper-info-text { width: 100%; flex: none; text-align: left; } }
+@media (max-width: 1019px) { .paper-info-row img { width: 45px; } .paper-info-text { flex: 1; } }
+
 
 </style>
 
@@ -292,10 +295,10 @@ button:focus {
     
     <div class="container widest" style="padding-top: 3rem;">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0;">
-        <div class="home1-2" style="padding:20px;">
+        <div class="prodImg" style="padding:20px;">
           <img src="img/CA.png" width="100%">
         </div>
-        <div class="home1-2">
+        <div class="prodForm">
 
 
 
@@ -359,17 +362,105 @@ button:focus {
   </div>
 
   
-<h6 style="font-size: 0.92rem; padding-bottom: 6px; text-align: left; margin-top: 0px;">UPLOAD FILES</h6>
-  <div class="upload-dropbox" id="upload-box"><h6>Upload File(s)</h6></div>
-    <input type="file" id="file-upload" name="file" style="display: none;">
+
 
 
   
- <div style="display: flex; gap: 20px; width: 100%; margin-bottom: -40px;">
-  <div style="flex: 0 0 100px;">
-    <h6 style="font-size: 0.92rem; padding-bottom: 6px; text-align: left;">QUANTITY</h6>
-    <input type="number" placeholder="Qty" value="250" class="quantity">
+<div class="qty-table">
+<h6 style="font-size: 0.92rem; text-align: left; margin: 10px 0 14px 0; display: block;">QUANTITY</h6>
+  <div class="qty-header">
+    <div class="qty-cell" style="font-size: 0.92rem;">QTY</div>
+    <div class="qty-cell center" style="font-size: 0.92rem;">EACH</div>
+    <div class="qty-cell right" style="font-size: 0.92rem;">TOTAL</div>
   </div>
+
+  <div class="qty-row" onclick="selectQtyRow(this);">
+    <div class="qty-cell qty-count">25</div>
+    <div class="qty-cell center">$0.88</div>
+    <div class="qty-cell right">$22.00</div>
+  </div>
+
+  <div class="qty-row selected" onclick="selectQtyRow(this);">
+    <div class="qty-cell qty-count">50</div>
+    <div class="qty-cell center">$0.78</div>
+    <div class="qty-cell right">$39.00</div>
+  </div>
+
+  <div class="qty-row" onclick="selectQtyRow(this);">
+    <div class="qty-cell qty-count">100</div>
+    <div class="qty-cell center">$0.58</div>
+    <div class="qty-cell right">$58.00</div>
+  </div>
+
+  <div class="qty-row" style="position: relative;" onclick="selectQtyRow(this);">
+    <div class="qty-cell qty-count">250</div>
+    <div class="qty-cell center">$0.38</div>
+    <div class="qty-cell right">$94.00</div>
+  </div>
+
+  <div class="qty-row" onclick="selectQtyRow(this);">
+    <div class="qty-cell qty-count">500</div>
+    <div class="qty-cell center">$0.28</div>
+    <div class="qty-cell right">$141.00</div>
+  </div>
+
+  <div class="qty-row" onclick="selectQtyRow(this);">
+    <div class="qty-cell qty-count">1000</div>
+    <div class="qty-cell center">$0.18</div>
+    <div class="qty-cell right">$180.00</div>
+  </div>
+
+  <div class="qty-row" onclick="selectQtyRow(this);">
+    <div class="qty-cell qty-count">2500</div>
+    <div class="qty-cell center">$0.15</div>
+    <div class="qty-cell right">$366.00</div>
+  </div>
+
+  <div id="customQuantityRow" class="qty-custom-row">
+    <div class="qty-custom-inner">
+      <input type="number" value="150" min="1" class="qty-input">
+      <div class="qty-custom-each">$0.42</div>
+      <div class="qty-custom-total">$42.00</div>
+    </div>
+  </div>
+
+<div class="qty-toggle" id="customToggle" onclick="selectCustomQty();">
+  + CUSTOM QUANTITY
+</div>
+
+</div>
+
+<script>
+function selectQtyRow(el) {
+  // Clear all preset selections
+  document.querySelectorAll('.qty-row').forEach(row => row.classList.remove('selected'));
+  
+  // Hide custom row and show toggle again
+  document.getElementById('customQuantityRow').style.display = 'none';
+  document.getElementById('customToggle').style.display = 'block';
+
+  // Select clicked row
+  el.classList.add('selected');
+}
+
+function selectCustomQty() {
+  // Deselect all preset rows
+  document.querySelectorAll('.qty-row').forEach(row => row.classList.remove('selected'));
+
+  // Show custom row and mark it selected
+  document.getElementById('customQuantityRow').style.display = 'block';
+  document.getElementById('customToggle').style.display = 'none';
+}
+</script>
+
+
+    <hr style="border: none; border-top: 1px solid #ccc; margin: -25px 0;">
+
+<h6 style="font-size: 0.92rem; padding-bottom: 6px; text-align: left; margin-top: 0px;">UPLOAD FILES</h6>
+  <div class="upload-dropbox" id="upload-box"><h6>Upload File(s)</h6></div>
+    <input type="file" id="file-upload" name="file" style="display: none;">
+  
+ <div style="display: flex; gap: 20px; width: 100%; margin-bottom: 0px;">
   <div style="flex: 1;">
     <h6 style="font-size: 0.92rem; padding-bottom: 6px; text-align: left;">SPECIAL INSTRUCTIONS</h6>
     <textarea id="message" name="message" rows="6" placeholder="Type your message here..." style="width: 100%; padding: 12px; font-size: 1rem; height: 4.1rem;"></textarea>
@@ -378,14 +469,13 @@ button:focus {
 
 
 
-    <hr style="border: none; border-top: 1px solid #ccc; margin: 20px 0;">
+
+    <hr style="border: none; border-top: 1px solid #ccc; margin: -25px 0 -35px 0;">
 
 <div class="final-row" style="padding-top: 1rem;">
   <div class="price"><span style="font-size: 70%; vertical-align: top;">$</span>45</div>
   <button class="add-to-cart-button">ADD TO CART</button>
 </div>
-
-
 
 
 
@@ -493,7 +583,7 @@ button:focus {
     <div class="container widest">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: top;">
         
-        <div class="home1-3" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
+        <div class="column one-third stack" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
           <a href=""><img src="img/_STAN.png" width="100%"></a>
           <h5 style="color: #D35863;">Standard</h5>
           <p style="margin: 20px 0 25px 0;">
@@ -517,7 +607,7 @@ button:focus {
         
         </div>
         
-        <div class="home1-3" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
+        <div class="column one-third stack" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
           <a href=""><img src="img/_UPGRD.png" width="100%"></a>
           <h5 style="color: #D35863;">Premium</h5>
           <p style="margin: 20px 0 25px 0;">
@@ -532,7 +622,7 @@ button:focus {
 </div>
 
 <div class="paper-info-row">
-  <img src="img/130U.png" alt="100# Uncoated" />
+  <img src="img/130U.png" alt="100# Uncoated"/>
   <div class="paper-info-text">
     <h6>130# Uncoated</h6>
     <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
@@ -557,7 +647,7 @@ button:focus {
 
         </div>
         
-        <div class="home1-3" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
+        <div class="column one-third stack" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
           <a href=""><img src="img/_FREN.png" width="100%"></a>
           <h5 style="color: #D35863;">Recycled</h5>
           <p style="margin: 20px 0 25px 0;">
@@ -603,35 +693,34 @@ button:focus {
 
 
 
-    <section class="section" style="margin-bottom:0; padding-bottom: 0;">
-    <div class="container widest">
+       <section class="section pink">
+    <div class="container wider">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
         
-        <div class="home1-3" style="padding: 0 20px; margin: 20px 0;">
-          <a href=""><img src="img/PA.png" width="100%"></a>
-          <h5>Showcase</h5>
-          <p style="margin: 20px 0 10px 0;">Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
-          
+        <div class="column four md-twelve" style="margin-bottom: 35px;">
+          <a href=""><img src="img/PA.png" width="80%"></a>
+          <h4>DEALS!</h4>
+          <p style="margin: 20px 20px 10px;">Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
+          <button class="btn-primary">Sign Up</button>
         </div>
         
-        <div class="home1-3" style="padding: 0 20px; margin: 20px 0;">
-          <a href=""><img src="img/PA.png" width="100%"></a>
-          <h5>Turnaround Time</h5>
-          <p style="margin: 20px 0 10px 0;">Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
-          
+        <div class="column four md-six sm-twelve" style="margin-bottom: 35px;">
+          <a href=""><img src="img/PA.png" width="80%"></a>
+          <h4>DEALS!</h4>
+          <p style="margin: 20px 20px 10px;">Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
+          <button class="btn-primary">Sign Up</button>
         </div>
         
-        <div class="home1-3" style="padding: 0 20px; margin: 20px 0;">
-          <a href=""><img src="img/PA.png" width="100%"></a>
-          <h5>Deals!</h5>
-          <p style="margin: 20px 0 10px 0;">Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
-          
+        <div class="column four md-six sm-twelve" style="margin-bottom: 35px;">
+          <a href=""><img src="img/PA.png" width="80%"></a>
+          <h4>DEALS!</h4>
+          <p style="margin: 20px 20px 10px;">Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
+          <button class="btn-primary">Sign Up</button>
         </div>
         
       </div>
     </div>
   </section>
-
 
 
 

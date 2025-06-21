@@ -2,47 +2,55 @@
 
 <!-- START NAV BAR -->
 <script>
-  let lastScrollTop = 0;
-  window.addEventListener("scroll", function () {
-    const header = document.querySelector("header");
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+let lastScrollTop = 0;
+window.addEventListener("scroll", function () {
+  const header = document.querySelector("header");
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-    if (window.innerWidth > 768) {
-      if (scrollTop > 50) {
-        header.classList.add("scrolled");
-      } else {
-        header.classList.remove("scrolled");
-      }
-
-      if (scrollTop > lastScrollTop) {
-        header.classList.add("hide");
-      } else {
-        header.classList.remove("hide");
-      }
+  if (window.innerWidth > 300) {
+    if (scrollTop > 50) {
+      header.classList.add("scrolled");
     } else {
       header.classList.remove("scrolled");
     }
 
-    lastScrollTop = scrollTop;
-  });
+    if (scrollTop > lastScrollTop) {
+      header.classList.add("hide");
+    } else {
+      header.classList.remove("hide");
+    }
+  } else {
+    header.classList.remove("scrolled");
+    header.classList.remove("hide"); // make sure it's always visible on mobile
+  }
+
+  lastScrollTop = scrollTop;
+});
+
 
   function toggleMobileNav() {
-    const nav = document.getElementById("mobileNav");
-    const icon = document.getElementById("menuIcon");
-    nav.classList.toggle("open");
-    icon.src = nav.classList.contains("open") ? "img/close.png" : "img/ham.png";
+    const nav = document.getElementById("mobileMenu");
+    const icon = document.querySelector(".nav-toggle img");
+
+    nav.classList.toggle("active");
+
+    if (icon) {
+      icon.src = nav.classList.contains("active") ? "img/close.png" : "img/ham.png";
+    }
   }
 
   window.addEventListener('resize', function () {
-    const nav = document.getElementById("mobileNav");
-    const icon = document.getElementById("menuIcon");
-    if (window.innerWidth > 768 && nav.classList.contains("open")) {
-      nav.classList.remove("open");
-      icon.src = "img/ham.png";
+    const nav = document.getElementById("mobileMenu");
+    const icon = document.querySelector(".nav-toggle img");
+
+    if (window.innerWidth > 720 && nav.classList.contains("active")) {
+      nav.classList.remove("active");
+      if (icon) icon.src = "img/ham.png";
     }
   });
 </script>
 <!-- END NAV BAR -->
+
 
 <!-- START ACCORDION -->
 <script>

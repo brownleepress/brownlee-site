@@ -48,8 +48,8 @@
   <section class="section">
     <div class="container widest">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
-        <div class="home1-3"><a href=""><img src="img/ST.png" width="100%"></a></div>
-        <div class="home2-3">
+        <div class="column one-third sm-twelve"><a href=""><img src="img/ST.png" width="100%"></a></div>
+        <div class="column two-thirds sm-twelve">
           <h5 style="margin-bottom: 15px; color: #777;">BAD ASS SHIT</h5>
           <h2 style="margin-bottom: 25px;">Stickers! Any size, any shape, laminated to be durable, and ready in a hurry!</h2>
           <button class="button btn-primary">ORDER STICKERS!</button>
@@ -62,17 +62,17 @@
     <section class="section">
     <div class="container wide">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
-        <div class="home2-3" style="padding: 0 30px;">
+        <div class="column one-third sm-twelve"><a href=""><img src="img/PA.png" width="100%"></a></div>
+        <div class="column two-thirds sm-twelve" style="">
           <h3 style="margin-bottom: 25px;">Deals, Deals, Deals!</h3>
           <p>Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
           <button class="button btn-primary">LET'S MAKE A DEAL!</button>
        </div>
-       <div class="home1-3"><a href=""><img src="img/PA.png" width="100%"></a></div>
       </div>
     </div>
   </section>
 
-
+<!-- CONTAINER TEST -->
  <section class="section pink">
     <div class="container wide" style="background: #777; text-align: center;">
       <h2>WIDE!</h2>
@@ -96,7 +96,7 @@
       <h2>Full 1600</h2>
     </div>
   </section>
-
+<!-- CONTAINER TEST -->
 
 
 
@@ -114,67 +114,31 @@
   </section>
 
 
-  <section class="section">
-    <div class="container wider">
-      <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
-        <div class="home1">
-          <h3 style="margin-bottom: 25px;">Let's Print.</h3>
-        </div>
-      </div>
-      <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
-        <div class="home4"><a href=""><img src="img/PA.png" width="100%"></a></div>
-        <div class="home4"><a href=""><img src="img/CA.png" width="100%"></a></div>
-        <div class="home4"><a href=""><img src="img/BC.png" width="100%"></a></div>
-        <div class="home4"><a href=""><img src="img/ST.png" width="100%"></a></div>
-      </div>  
-      <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 30px 0; padding: 0; align-items: center;">
-        <div class="home1-3">
-          <h6 style="color: #777;">FOLDED</h6>
-          <a href="" class="offeringLink">Booklets</a>
-          <a href="" class="offeringLink">Greeting Cards</a>
-          <a href="" class="offeringLink">Bi-folds</a>
-        </div>
-        <div class="home1-3">
-          <h6 style="color: #777;">LARGE FORMAT</h6>
-          <a href="" class="offeringLink">Yard Signs</a>
-          <a href="" class="offeringLink">Banners</a>
-          <a href="" class="offeringLink">Mounted</a>
-        </div>
-
-        <div class="home1-3">
-          <h6 style="color: #777;">MISC.</h6>
-          <a href="" class="offeringLink">Envelopess</a>
-          <a href="" class="offeringLink">Notepads</a>
-          <a href="" class="offeringLink">VHS Boxes</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
+ 
 
 
     <section class="section pink">
     <div class="container wider">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
         
-        <div class="home1-3" style="padding: 0 20px; margin: 20px 0;">
-          <a href=""><img src="img/PA.png" width="100%"></a>
+        <div class="column four md-twelve" style="margin-bottom: 35px;">
+          <a href=""><img src="img/PA.png" width="80%"></a>
           <h4>DEALS!</h4>
-          <p style="margin: 20px 0 10px 0;">Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
+          <p style="margin: 20px 20px 10px;">Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
           <button class="btn-primary">Sign Up</button>
         </div>
         
-        <div class="home1-3" style="padding: 0 20px; margin: 20px 0;">
-          <a href=""><img src="img/PA.png" width="100%"></a>
+        <div class="column four md-six sm-twelve" style="margin-bottom: 35px;">
+          <a href=""><img src="img/PA.png" width="80%"></a>
           <h4>DEALS!</h4>
-          <p style="margin: 20px 0 10px 0;">Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
+          <p style="margin: 20px 20px 10px;">Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
           <button class="btn-primary">Sign Up</button>
         </div>
         
-        <div class="home1-3" style="padding: 0 20px; margin: 20px 0;">
-          <a href=""><img src="img/PA.png" width="100%"></a>
+        <div class="column four md-six sm-twelve" style="margin-bottom: 35px;">
+          <a href=""><img src="img/PA.png" width="80%"></a>
           <h4>DEALS!</h4>
-          <p style="margin: 20px 0 10px 0;">Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
+          <p style="margin: 20px 20px 10px;">Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
           <button class="btn-primary">Sign Up</button>
         </div>
         
