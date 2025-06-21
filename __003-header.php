@@ -21,13 +21,13 @@
       <a href="#">Shop</a>
       <a href="#">Resources</a>
       <a href="#">About</a>
-      <a href="incoming-orders.php">Orders</a>
+
     </nav>
 
     <!-- Desktop Actions -->
     <div class="nav-actions desktop-nav">
       <a href="#"><img src="img/cart.png" alt="Cart" class="icon"></a>
-      <a href="#" class="upload-btn btn-primary">Login</a>
+      <a href="#" class="upload-btn">Login</a>
     </div>
   </div>
 
