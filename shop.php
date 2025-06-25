@@ -5,8 +5,8 @@
 
 <style>
 .product-grid { display: flex; flex-direction: column; gap: 20px; width: 100%; align-items: center; }
-.row.products { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 0; padding: 0; }
-.product-item { text-align: center; font-weight: bold; font-size: 1.05rem; line-height: 1.4; cursor: pointer; background: none; border: none; padding: 0; transition: transform 0.5s ease; }
+.row.products { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+.product-item { text-align: center; font-weight: bold; font-size: 1.05rem; line-height: 1.4; cursor: pointer; background: none; border: none; padding: 0; margin-bottom: 16px;transition: transform 0.5s ease; }
 .product-item img { width: 100%; max-width: 240px; transition: transform 0.8s ease; }
 .product-item:hover img { transform: rotate(2.5deg) translateY(-5px); }
 .category-nav { text-align: center; margin: 20px 0 40px; }
@@ -15,6 +15,7 @@
 .load-more { display: block; margin: 40px auto 20px; padding: 10px 20px; background: #d35863; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 1rem; }
 .product-item a { text-decoration: none; color: #d35863; font-size: 1.45rem; line-height: 1.35rem; display: block; padding-bottom: 10px;}
 .product-item a:hover { text-decoration: none; }
+
 </style>
 
 </head><body>
@@ -33,7 +34,7 @@
     <div class="container widerest product-grid">
       <div class="row products">
         
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 Long item name, Nothhing would ever be this long</div></a></div></div>
+<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
 <div class='column two md-three sm-six product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
 <div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 3</div></a></div></div>
 <div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1</div></a></div></div>
