@@ -117,7 +117,7 @@
 
 
 
-    <section class="section">
+<section class="section">
     <div class="container wide">
         <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
             <div class="home1">
@@ -131,21 +131,21 @@
                 <div class="accordion">
                     
                     <div class="accordion-item">
-                        <button class="accordion-header">What is your return policy?</button>
+                        <div class="accordion-header">What is your return policy?</div>
                         <div class="accordion-content">
                             <p>You can return any item within 30 days, no questions asked.</p>
                         </div>
                     </div>
 
                     <div class="accordion-item">
-                        <button class="accordion-header">What is your return policy?</button>
+                        <div class="accordion-header">What is your return policy?</div>
                         <div class="accordion-content">
                             <p>You can return any item within 30 days, no questions asked.</p>
                         </div>
                     </div>
 
                     <div class="accordion-item">
-                        <button class="accordion-header">What is your return policy?</button>
+                        <div class="accordion-header">What is your return policy?</div>
                         <div class="accordion-content">
                             <p>You can return any item within 30 days, no questions asked.</p>
                         </div>

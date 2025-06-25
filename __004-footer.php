@@ -10,7 +10,7 @@
           <p style="margin-bottom: 1rem; font-weight: 600;">Sign up for updates, deals, and new drops.</p>
             <div style="display: inline-flex; align-items: flex-start; gap: 10px;">
               <input type="email" placeholder="your@email.com" style="padding: 1.4rem 2rem; margin-bottom: 0; margin-top: 9px; font-size: 75%;" />
-              <button class="btn-green" style="font-size: 70%; padding-left: 1rem; padding-right: 1rem;">Sign Up</button>
+              <button class="button btn-green" style="font-size: 70%; padding-left: 1rem; padding-right: 1rem;">Sign Up</button>
             </div>
         </div>
       </div>

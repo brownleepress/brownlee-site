@@ -132,19 +132,19 @@
         <div class="home1" style="padding: 0; margin: 0;">
 <div class="accordion">
   <div class="accordion-item">
-    <button class="accordion-header">What is your return policy?</button>
+    <div class="accordion-header">What is your return policy?</div>
     <div class="accordion-content">
       <p>You can return any item within 30 days, no questions asked.</p>
     </div>
   </div>
   <div class="accordion-item">
-    <button class="accordion-header">How long does shipping take?</button>
+    <div class="accordion-header">What is your return policy?</div>
     <div class="accordion-content">
       <p>Most orders ship within 2-3 business days and arrive within a week.</p>
     </div>
   </div>
   <div class="accordion-item">
-    <button class="accordion-header">Long question goes here: Can I change my order? How does that look??</button>
+    <div class="accordion-header">What is your return policy?</div>
     <div class="accordion-content">
       <p>Sure — just contact us within 24 hours and we'll make it happen. Sure — just contact us within 24 hours and we'll make it happen. Sure — just contact us within 24 hours and we'll make it happen.</p>
     </div>
