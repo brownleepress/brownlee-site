@@ -277,6 +277,7 @@ button:focus {
 
 
 
+
 <!--inside head -->
 </head><body>
 <?php include '__003-header.php'; ?>  
@@ -489,15 +490,38 @@ function selectCustomQty() {
 
 
 
-<section class="section pink">
-    <div class="container wide">
-      <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
-        <div class="home1-3"><a href=""><img src="img/ST.png" width="100%"></a></div>
-        <div class="home2-3">
-          <h5 style="margin-bottom: 15px; color: #777;">BAD ASS SHIT</h5>
-          <h2 style="margin-bottom: 25px;">Stickers! Any size, any shape, laminated to be durable, and ready in a hurry!</h2>
-          <button class="button btn-primary">ORDER STICKERS!</button>
+<section class="section">
+    <div class="container widerest">
+      <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center; margin: 0; padding: 0;">
+      
+        <div class="column four md-six sm-twelve theGap">
+          <h5 style="margin: 40px 0 15px 0; color: #777;">Font Sizes</h5>
+          Use font sizes of 8pt or larger to ensure clear readability. I wear big glasses - I can see EVERYTHING. A 6pt font makes me squint. 
+          <br><br>
+          Also, there has been a trend of new 'THIN' fonts. These look great on a screen, but printed, sometimes there isn't enough meat on the font to print correctly. 
+
+          <h5 style="margin: 40px 0 15px 0; color: #777;">Spacing</h5>
+          Let your artwork breathe a little - give it at least 0.25” of margin around the edge of the sheet, at least for the important text and images that you don't want cut off.
        </div>
+
+        <div class="column four md-six sm-twelve theGap">
+          <h5 style="margin: 40px 0 15px 0; color: #777;">Marks and Bleed</h5>
+          Depending on the software you're using, you may have the option to export with bleeds and or marks. If it's an option, please hook me up! If you don't know about this, ask. Maybe I can get you pointed in the right direction.
+
+          <h5 style="margin: 40px 0 15px 0; color: #777;">Matte prints</h5>
+          One of the trade-offs of digital printing is the use of dry toner instead of a liquid ink (like an ink jet). When this toner dries (fuses), it has a little bit of a sheen to it. It's not glossy, but it's not matte. Even if I print on an uncoated stock, if the artwork is full-coverage ink, there will be a sheen. The only way around that would be to print with a different method: offset, screenprint, or just a plain old ink jet. But I don't offer any of that here.
+       </div>
+
+        <div class="column four md-twelve theGap">
+          <h5 style="margin: 40px 0 15px 0; color: #777;">Color</h5>
+          I calibrate my machine weekly - it's dialed in and carefully honed to work with each paper type. That said, what you see on the screen is not always exactly what you'll see in print. I could bore you to death explaining color modes, the difference between CMYK and RGB, and screen-vs-print - but I won't. But, I could. 
+
+          <h5 style="margin: 40px 0 15px 0; color: #777;">Borders</h5>
+          Borders can be tough, especially is your art is double-sided. If you're able, do a chunky border - try to keep that thing at least 0.25” from the edge.
+       </div>
+
+
+
       </div>
     </div>
   </section>
@@ -583,8 +607,8 @@ function selectCustomQty() {
     <div class="container widest">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: top;">
         
-        <div class="column one-third stack" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
-          <a href=""><img src="img/_STAN.png" width="100%"></a>
+        <div class="column one-third md-six sm-twelve theGap" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
+          <a href=""><img src="img/_STAN.png" width="100%" style="max-width:300px;"></a>
           <h5 style="color: #D35863;">Standard</h5>
           <p style="margin: 20px 0 25px 0;">
             100# cover, uncoated or satin-coated. It's the go-to for solid, high-quality, bright white paper that's ready to get the job done and look great doing it.
@@ -607,8 +631,8 @@ function selectCustomQty() {
         
         </div>
         
-        <div class="column one-third stack" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
-          <a href=""><img src="img/_UPGRD.png" width="100%"></a>
+        <div class="column one-third md-six sm-twelve theGap" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
+          <a href=""><img src="img/_UPGRD.png" width="100%" style="max-width:300px;"></a>
           <h5 style="color: #D35863;">Premium</h5>
           <p style="margin: 20px 0 25px 0;">
             Curated upgrades - it's the same good stuff... but better.
@@ -647,8 +671,8 @@ function selectCustomQty() {
 
         </div>
         
-        <div class="column one-third stack" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
-          <a href=""><img src="img/_FREN.png" width="100%"></a>
+        <div class="column one-third md-twelve theGap" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
+          <a href=""><img src="img/_FREN.png" width="100%" style="max-width:300px;"></a>
           <h5 style="color: #D35863;">Recycled</h5>
           <p style="margin: 20px 0 25px 0;">
             French Paper Co. - Made in Michigan. We offer 3 flavors of 100# cover, each with recycled specks and flecks, making every sheet unique. 
@@ -728,7 +752,7 @@ function selectCustomQty() {
     <div class="container wide">
         <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
             <div class="home1">
-                <h4 style="margin-bottom: 25px;">FAQ</h4>
+               <h4 style="margin-bottom: 25px;">FAQ</h4>
             </div>
         </div>  
     
