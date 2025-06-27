@@ -9,17 +9,17 @@
 <?php include '__003-header.php'; ?>  
 
   <section class="section" style="margin-bottom:0; padding-bottom: 0;">
-    <div class="container wider" style="padding-top: 6rem;">
+    <div class="container widest" style="padding-top: 6rem;">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
-        <div class="home1">
+        <div class="column twelve">
           <h2 style="margin-bottom: 25px;">Let's Print.</h2>
         </div>
       </div>
-      <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
-        <div class="home4"><a href="print-product.php"><img src="img/PA.png" width="100%"></a></div>
-        <div class="home4"><a href="print-product.php"><img src="img/CA.png" width="100%"></a></div>
-        <div class="home4"><a href="print-product.php"><img src="img/BC.png" width="100%"></a></div>
-        <div class="home4"><a href="print-product.php"><img src="img/ST.png" width="100%"></a></div>
+      <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center; width: 100%;">
+        <div class="column three md-three sm-six"><a href="print-product.php"><img src="img/PA.png" width="100%"></a></div>
+        <div class="column three md-three sm-six"><a href="print-product.php"><img src="img/CA.png" width="100%"></a></div>
+        <div class="column three md-three sm-six"><a href="print-product.php"><img src="img/BC.png" width="100%"></a></div>
+        <div class="column three md-three sm-six"><a href="print-product.php"><img src="img/ST.png" width="100%"></a></div>
       </div>  
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 30px 0; padding: 0; align-items: center;">
         <div class="home1-3">
