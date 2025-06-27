@@ -623,17 +623,13 @@ a.footerLink:hover, a.footerLink:active { color: #625b5b; background: #6AEF76; t
 /* ACCORDION */
 /* ACCORDION */
 /* ACCORDION */
-.accordion { border-top: 1px solid #ddd; margin: 0 auto; }
-
-.accordion-item { border-bottom: 1px solid #ddd; padding: 10px 0; }
-
-.accordion-header { background: none; border: none; width: 100%; padding: 1rem 2rem; font-weight: 600; cursor: pointer; transition: background 0.2s ease; color: #625b5b; text-align: center; margin: 0; }
-
+.accordion { width: 100%; border-top: 1px solid #ddd; box-sizing: border-box; }
+.accordion-item { padding: 10px 1.5rem; border-bottom: 1px solid #ddd; box-sizing: border-box; }
+.accordion-header { padding: 1rem 2rem; background: none; border: none; font-weight: 600; color: #625b5b; text-align: center; cursor: pointer; transition: background 0.2s ease; }
 .accordion-header:hover { background: #D35863; color: #fff; }
-
-.accordion-content { display: none; padding: 2.75rem 2.6rem 1rem 2.6rem; line-height: 1.2; text-align: center; background: #fafafa; margin-top: 0; }
-
 .accordion-header.active { background-color: #D35863; color: #fff; }
+.accordion-content { display: none; padding: 2.5rem 1.5rem 0.25rem 1.5rem; background: #fafafa; text-align: center; line-height: 1.4; box-sizing: border-box; }
+
 
 /* HOME CUSTOM PRINT */
 /* HOME CUSTOM PRINT */

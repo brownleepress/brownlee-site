@@ -19,8 +19,8 @@
     <nav class="nav desktop-nav">
       <a href="print.php">Print</a>
       <a href="shop.php">Shop</a>
-      <a href="#">Resources</a>
-      <a href="#">About</a>
+      <a href="resources.php">Resources</a>
+      <a href="about.php">About</a>
 
     </nav>
 

@@ -125,35 +125,44 @@
 
 
 
-    <section class="section">
+  <section class="section">
     <div class="container wide">
-      <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
-        
-        <div class="home1" style="padding: 0; margin: 0;">
-<div class="accordion">
-  <div class="accordion-item">
-    <div class="accordion-header">What is your return policy?</div>
-    <div class="accordion-content">
-      <p>You can return any item within 30 days, no questions asked.</p>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <div class="accordion-header">What is your return policy?</div>
-    <div class="accordion-content">
-      <p>Most orders ship within 2-3 business days and arrive within a week.</p>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <div class="accordion-header">What is your return policy?</div>
-    <div class="accordion-content">
-      <p>Sure — just contact us within 24 hours and we'll make it happen. Sure — just contact us within 24 hours and we'll make it happen. Sure — just contact us within 24 hours and we'll make it happen.</p>
-    </div>
-  </div>
-</div>
-          
-        </div>
+        <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0;">
+            <div class="column twelve">
+               <h4 style="margin-bottom: 25px;">FAQ</h4>
+            </div>
+        </div>  
+    
+    
+        <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0;">
+            <div class="column twelve">
+                <div class="accordion">
+                    
+                    <div class="accordion-item">
+                        <div class="accordion-header">What is your return policy?</div>
+                        <div class="accordion-content">
+                            <p>You can return any item within 30 days, no questions asked. You can return any item within 30 days, no questions asked. You can return any item within 30 days, no questions asked. You can return any item within 30 days, no questions asked. </p>
+                        </div>
+                    </div>
 
-      </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">What is your return policy?</div>
+                        <div class="accordion-content">
+                            <p>You can return any item within 30 days, no questions asked.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header">What is your return policy?</div>
+                        <div class="accordion-content">
+                            <p>You can return any item within 30 days, no questions asked.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+ 
     </div>
   </section>
 
