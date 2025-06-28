@@ -3,29 +3,30 @@
 <!-- START NAV BAR -->
 <script>
 let lastScrollTop = 0;
+const header = document.querySelector("header.navbar");
+
 window.addEventListener("scroll", function () {
-  const header = document.querySelector("header");
   const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-  if (window.innerWidth > 300) {
-    if (scrollTop > 50) {
-      header.classList.add("scrolled");
-    } else {
-      header.classList.remove("scrolled");
-    }
-
-    if (scrollTop > lastScrollTop) {
-      header.classList.add("hide");
-    } else {
-      header.classList.remove("hide");
-    }
+  if (scrollTop > 0) {
+    header.classList.add("scrolled");
   } else {
     header.classList.remove("scrolled");
-    header.classList.remove("hide"); // make sure it's always visible on mobile
   }
 
-  lastScrollTop = scrollTop;
+  if (scrollTop > lastScrollTop) {
+    header.classList.add("hide"); // Scrolling down
+  } else {
+    header.classList.remove("hide"); // Scrolling up
+  }
+
+  lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
 });
+
+
+
+
+
 
 
   function toggleMobileNav() {
