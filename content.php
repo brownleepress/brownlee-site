@@ -58,9 +58,25 @@
     </div>
   </div>
 
-  <!-- Hero Cards -->
+ 
+   <!-- Printers Notes Header -->
+  <div class="container wider" style=" margin-bottom: 0.5rem;">
+    <div class="row" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;">
+      
+      <div class="column six md-six sm-twelve content-links" style="display: flex; gap: rem; align-items: center;">
+        <h5><a href="#" style="font-weight: bold; color: #625b5b;">Printer's Notes</a></h5>
+      </div>
+      
+      <div class="column six md-six sm-twelve content-search" style="display: flex; justify-content: flex-end; align-items: center; gap: 0.5rem; margin-top: 10px;">
+        <a href="content">See more</a>
+      </div>
+
+    </div>
+  </div>
+ 
+  <!-- Printers Notes Cards -->
   <div class="container widest">
-    <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 25px 0 0 0;">
+    <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0px 0 0 0;">
       
 <div class="column six md-six sm-twelve theGap" style="text-align: left; margin-bottom: 45px;">
   <div class="card">
@@ -69,8 +85,8 @@
       <small>Printers Notes</small>
       <a href="post.php"><h4 class="content-title">One up</h4></a>
       <div class="content-meta">
-        <span>CA - Cardstock</span>
-        <span class="read-time">Read more</span>
+        <span></span>
+        <span class="read-time"></span>
       </div>
     </div>
   </div>
@@ -83,8 +99,8 @@
       <small>Printers Notes</small>
       <a href="post.php"><h4 class="content-title">Sticker setup - Transparent PNGs</h4></a>
       <div class="content-meta">
-        <span>Gergana Encheva</span>
-        <span class="read-time">10 min read</span>
+        <span></span>
+        <span class="read-time"></span>
       </div>
     </div>
   </div>
@@ -109,7 +125,7 @@
 
   <!-- Insights Cards -->
   <div class="container widest">
-    <div class="row" style="display: flex; flex-wrap: wrap; margin: 25px 0; padding: 0 0 1rem 0;">
+    <div class="row" style="display: flex; flex-wrap: wrap; margin: 10px 0; padding: 0 0 1rem 0;">
       
  <div class="column four md-four sm-twelve babyGap" style="text-align: left; margin-bottom: 45px;">
   <div class="card">
@@ -179,17 +195,21 @@
   <div class="container wider" style=" padding: 0 0 5rem 0;">
     <div class="row" style="display: flex; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;">
       
-      <div class="column three md-three sm-six babyGap" style="">
+      <div class="column three md-three sm-six babyGap" style="margin-bottom: 20px;">
         <a href=""><img src="img/play1.jpg" class="soft-card"></a>
+        <small><a href="#" target="_blank">Apple Music</a> | <a href="#" target="_blank">Spotify</a></small>
       </div>
-      <div class="column three md-three sm-six babyGap" style="">
-        <a href=""><img src="img/play2.jpg" class="soft-card"></a>
-      </div>
-      <div class="column three md-three sm-six babyGap" style="">
-        <a href=""><img src="img/play3.jpg" class="soft-card"></a>
-      </div>
-      <div class="column three md-three sm-six babyGap" style="">
+      <div class="column three md-three sm-six babyGap" style="margin-bottom: 20px;">
         <a href=""><img src="img/play4.jpg" class="soft-card"></a>
+        <small><a href="#" target="_blank">Apple Music</a> | <a href="#" target="_blank">Spotify</a></small>
+      </div>
+      <div class="column three md-three sm-six babyGap" style="margin-bottom: 20px;">
+        <a href=""><img src="img/play3.jpg" class="soft-card"></a>
+        <small><a href="#" target="_blank">Apple Music</a> | <a href="#" target="_blank">Spotify</a></small>
+      </div>
+      <div class="column three md-three sm-six babyGap" style="margin-bottom: 20px;">
+        <a href=""><img src="img/play2.jpg" class="soft-card"></a>
+        <small><a href="#" target="_blank">Apple Music</a> | <a href="#" target="_blank">Spotify</a></small>
       </div>
     </div>
   </div>
@@ -205,7 +225,7 @@
 
       <img src="img/heart-eyes.png" alt="Subscribe" style="max-width: 170px; width: 100%; margin-top: -95px;">
       <h3 style="margin-top:20px; margin-bottom: 1rem;">Great to see you, how about I creep into your inbox once in a while?!</h3>
-      <p style="font-size: 1.1rem; margin-bottom: 2rem;">It sounds worse that it is... I'll just let you know when stuff is happening, and what's going on in my tiny corner of the print world.</p>
+      <p style="font-size: 1.1rem; margin-bottom: 2rem;">It sounds worse than it is... I'll just let you know when stuff is happening, and what's going on in my tiny corner of the print world.</p>
       <button class="button btn-primary">Subscribe</button>
       
     </div>

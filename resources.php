@@ -18,6 +18,10 @@
         
         <div class="column twelve"">
           <h4>Resources</h4>
+          Link to Content: Printer's Notes, Show your Work, and Playlists<br>
+          Templates<br>
+          FAQ<br>
+          Uploader<br>
         </div>
         
       </div>
