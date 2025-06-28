@@ -103,8 +103,8 @@ body { padding-top: 80px; }
 /*██████████████████████████████████████*/
 
 /* LINKS */
-a { color: #1eaedb; }
-a:hover { color: #1b9cc5; }
+a { color: #D35863; }
+a:hover { color: #b84a56; }
 
 /* LINE */
 hr {padding: 25px 0; border-width: 0px; border-top: 1px solid #ccc !important; display: block; clear: both;height: 0;}

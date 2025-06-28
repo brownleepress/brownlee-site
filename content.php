@@ -3,9 +3,12 @@
 <?php include '__002-links.php'; ?>
 
 <style>
-.card { border: 1px solid #eee; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.1); cursor: pointer; transition: box-shadow 0.3s ease; display: flex; flex-direction: column; height: 100%; } 
-.card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.15); } 
-.content-image { width: 100%; height: 300px; background-size: cover; background-position: center; } 
+.soft-card { width:100%; border: 1px solid #eee; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.1); cursor: pointer; transition: box-shadow 0.3s ease; }
+.soft-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+.card { border: 1px solid #eee; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.1); cursor: pointer; transition: box-shadow 0.3s ease; display: flex; flex-direction: column; height: 100%; }
+.card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+.content-image { width: 100%; height: 300px; background-color: #f1f1f1; background-size: cover; background-position: center; transition: background-color 0.3s ease; }
+.card:hover .content-image { background-color: #6AEF76; }.content-image { width: 100%; height: 300px; background-size: cover; background-position: center; } 
 .content-body { padding: 16px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1; } 
 .content-title { font-size: 1.2rem; font-weight: bold; line-height: 1.3; } 
 .content-description { font-size: 1rem; color: #555; } 
@@ -61,10 +64,10 @@
       
 <div class="column six md-six sm-twelve theGap" style="text-align: left; margin-bottom: 45px;">
   <div class="card">
-    <div class="content-image" style="background-image: url('img/content.png');"></div>
+    <a href="post.php"><div class="content-image" style="background-image: url('img/pn_one-up.png');"></div></a>
     <div class="content-body">
-      <small>Show your Work</small>
-      <h4 class="content-title">The Zito's wedding Invites</h4>
+      <small>Printers Notes</small>
+      <a href="post.php"><h4 class="content-title">One up</h4></a>
       <div class="content-meta">
         <span>CA - Cardstock</span>
         <span class="read-time">Read more</span>
@@ -75,10 +78,10 @@
 
 <div class="column six md-six sm-twelve theGap" style="text-align: left; margin-bottom: 45px;">
   <div class="card">
-    <div class="content-image" style="background-image: url('img/content.png');"></div>
+    <a href="post.php"><div class="content-image" style="background-image: url('img/pn_sticker-trans.png');"></div></a>
     <div class="content-body">
-      <small>Insights</small>
-      <h4 class="content-title">Hourly rates or flat pricing – which pricing strategy works best (for agencies)</h4>
+      <small>Printers Notes</small>
+      <a href="post.php"><h4 class="content-title">Sticker setup - Transparent PNGs</h4></a>
       <div class="content-meta">
         <span>Gergana Encheva</span>
         <span class="read-time">10 min read</span>
@@ -88,7 +91,7 @@
 </div>
 
   <!-- Show Your Work Header -->
-<div class="container widest">
+<div class="container widest" style="margin-top: 30px;">
     <div class="row" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;">
       
       <!-- Left: Content Links -->
@@ -110,13 +113,13 @@
       
  <div class="column four md-four sm-twelve babyGap" style="text-align: left; margin-bottom: 45px;">
   <div class="card">
-    <div class="content-image" style="background-image: url('img/content.png');"></div>
+    <a href="post.php"><div class="content-image" style="background-image: url('img/syw_invite.jpg');"></div></a>
     <div class="content-body">
       <small>Show your Work</small>
-      <h4 class="content-title">Eddie Chaffer's stickers</h4>
+      <a href="post.php"><h4 class="content-title">Eddie Chaffer's stickers</h4></a>
       <div class="content-meta">
         <span><a href="#" target="_blank">Eddie Chaffer</a></span>
-        <span class="read-time">ST</span>
+        <span class="read-time"></span>
       </div>
     </div>
   </div>
@@ -124,13 +127,13 @@
 
 <div class="column four md-four sm-twelve babyGap" style="text-align: left; margin-bottom: 45px;">
   <div class="card">
-    <div class="content-image" style="background-image: url('img/content.png');"></div>
+    <a href="post.php"><div class="content-image" style="background-image: url('img/syw_invite.jpg');"></div></a>
     <div class="content-body">
-      <small>Insights</small>
-      <h4 class="content-title">Hourly rates or flat pricing – which pricing strategy works best (for agencies)</h4>
+      <small>Show your Work</small>
+      <a href="post.php"><h4 class="content-title">Eddie Chaffer's stickers</h4></a>
       <div class="content-meta">
-        <span>Gergana Encheva</span>
-        <span class="read-time">10 min read</span>
+        <span><a href="#" target="_blank">Eddie Chaffer</a></span>
+        <span class="read-time"></span>
       </div>
     </div>
   </div>
@@ -138,13 +141,13 @@
 
 <div class="column four md-four sm-twelve babyGap" style="text-align: left; margin-bottom: 45px;">
   <div class="card">
-    <div class="content-image" style="background-image: url('img/content.png');"></div>
+    <a href="post.php"><div class="content-image" style="background-image: url('img/syw_invite.jpg');"></div></a>
     <div class="content-body">
-      <small>Insights</small>
-      <h4 class="content-title">Hourly rates or flat pricing – which pricing strategy works best (for agencies)</h4>
+      <small>Show your Work</small>
+      <a href="post.php"><h4 class="content-title">Eddie Chaffer's stickers</h4></a>
       <div class="content-meta">
-        <span>Gergana Encheva</span>
-        <span class="read-time">10 min read</span>
+        <span><a href="#" target="_blank">Eddie Chaffer</a></span>
+        <span class="read-time"></span>
       </div>
     </div>
   </div>
@@ -161,7 +164,7 @@
     <div class="row" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;">
       
       <div class="column six md-six sm-twelve content-links" style="display: flex; gap: 1rem; align-items: center;">
-        <h5><a href="#" style="font-weight: bold; color: #625b5b;">Playlists</a></h5>
+        <h5><a href="#" style="font-weight: bold; color: #625b5b;">Music to Print to</a></h5>
       </div>
       
       <div class="column six md-six sm-twelve content-search" style="display: flex; justify-content: flex-end; align-items: center; gap: 0.5rem; margin-top: 10px;">
@@ -176,17 +179,17 @@
   <div class="container wider" style=" padding: 0 0 5rem 0;">
     <div class="row" style="display: flex; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;">
       
-      <div class="column three md-six sm-six babyGap" style="background: #e1e1e1;">
-        <a href=""><img src="img/ca.png" style="width:100%;"></a>
+      <div class="column three md-three sm-six babyGap" style="">
+        <a href=""><img src="img/play1.jpg" class="soft-card"></a>
       </div>
-      <div class="column three md-six sm-six babyGap" style="background: #e1e1e1;">
-        <a href=""><img src="img/ca.png" style="width:100%;"></a>
+      <div class="column three md-three sm-six babyGap" style="">
+        <a href=""><img src="img/play2.jpg" class="soft-card"></a>
       </div>
-      <div class="column three md-six sm-six babyGap" style="background: #e1e1e1;">
-        <a href=""><img src="img/ca.png" style="width:100%;"></a>
+      <div class="column three md-three sm-six babyGap" style="">
+        <a href=""><img src="img/play3.jpg" class="soft-card"></a>
       </div>
-      <div class="column three md-six sm-six babyGap" style="background: #e1e1e1;">
-        <a href=""><img src="img/ca.png" style="width:100%;"></a>
+      <div class="column three md-three sm-six babyGap" style="">
+        <a href=""><img src="img/play4.jpg" class="soft-card"></a>
       </div>
     </div>
   </div>
@@ -195,13 +198,13 @@
 </section>
 
 <!-- Subscribe Section -->
-<section style="text-align: center; padding: 3.5rem 1rem 3.25rem 1rem; background: #e1e1e1;">
+<section style="text-align: center; padding: 0rem 1rem 3rem 1rem; background: #e1e1e1;">
 <div class="container wide" style="text-align: center; background: #e1e1e1; margin-bottom: 0;">
   <div class="row" style="display: flex; flex-wrap: wrap; margin: 0; padding: 0;">
     <div class="column twelve theGap">
 
-      <img src="img/subscribe-illustration.png" alt="Subscribe" style="max-width: 500px; width: 100%; margin-bottom: 0; position: relative; top: -120px;">
-      <h3 style="margin-bottom: 1rem;">Great to see you, how about I creep into your inbox once in a while?!</h3>
+      <img src="img/heart-eyes.png" alt="Subscribe" style="max-width: 170px; width: 100%; margin-top: -95px;">
+      <h3 style="margin-top:20px; margin-bottom: 1rem;">Great to see you, how about I creep into your inbox once in a while?!</h3>
       <p style="font-size: 1.1rem; margin-bottom: 2rem;">It sounds worse that it is... I'll just let you know when stuff is happening, and what's going on in my tiny corner of the print world.</p>
       <button class="button btn-primary">Subscribe</button>
       
