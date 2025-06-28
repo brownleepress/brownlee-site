@@ -1,59 +1,217 @@
 <?php include '__001-top.php'; ?>
-  <title>Content - Brownlee Press</title>
+<title>Brownlee Press</title>
 <?php include '__002-links.php'; ?>
-<!--inside head -->
-  
+
+<style>
+.card { border: 1px solid #eee; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 6px rgba(0,0,0,0.1); cursor: pointer; transition: box-shadow 0.3s ease; display: flex; flex-direction: column; height: 100%; } 
+.card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.15); } 
+.content-image { width: 100%; height: 300px; background-size: cover; background-position: center; } 
+.content-body { padding: 16px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1; } 
+.content-title { font-size: 1.2rem; font-weight: bold; line-height: 1.3; } 
+.content-description { font-size: 1rem; color: #555; } 
+.content-meta { display: flex; justify-content: space-between; align-items: center; font-size: 0.9rem; color: #777; margin-top: auto; } 
+.read-time { font-size: 0.9rem; }
+
+@media (max-width: 768px) {
+  .content-search, .content-links { text-align: center !important; justify-content: center !important; }
+}
+</style>
 
 
-
-
-<!--inside head -->
 </head><body>
-<?php include '__003-header.php'; ?>  
-    
+<?php include '__003-header.php'; ?>
 
-  <section class="section" style="padding-top: 9rem; padding-bottom: 4rem;">
-    <div class="container wider">
-      <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0 0 50px 0; align-items: center;">
-        
-        <div class="column twelve theGap" style="text-align: left;">
- 
-<h4 style="margin-bottom: 20px;">Valley Forge Automotive Center Business Cards</h4>        
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin accumsan diam nisi, vel hendrerit ligula ultricies sit amet. Donec suscipit augue a orci tincidunt viverra. Vestibulum faucibus, quam at pretium rutrum, magna tortor tincidunt lorem, eu faucibus orci augue ut sapien. In a mi mi. Curabitur rutrum vel dui a molestie. Aliquam vitae erat ac magna iaculis mattis id sit amet quam. Etiam vulputate sollicitudin velit pharetra sodales. Maecenas in ligula quis elit feugiat convallis. Maecenas feugiat risus aliquam dolor pulvinar posuere. Nulla sed orci aliquam nisl mollis lacinia sit amet at est. Aliquam erat volutpat. Nunc efficitur risus dolor. Sed ante lacus, convallis sit amet sagittis eget, feugiat non mauris. Ut facilisis vitae erat a egestas.
-<br><br>
-Ut dictum consectetur neque, ut mattis dolor sagittis eget. Quisque aliquet tellus nec vulputate vulputate. Aenean vehicula ante id enim volutpat, sit amet volutpat ex elementum. Mauris ultricies lacus id ante pulvinar bibendum. Suspendisse nec porta libero. Aliquam accumsan fermentum accumsan. Curabitur euismod, urna ac pulvinar interdum, tortor turpis venenatis turpis, et placerat ex magna non orci. Donec vel quam nec leo viverra finibus eu non tortor. Proin id tellus vitae mi fermentum pharetra. Aliquam non turpis ut orci ultricies interdum. Nunc ullamcorper imperdiet iaculis. Mauris sit amet ornare risus. Phasellus metus nibh, blandit in neque ac, consequat iaculis orci. Aenean quis bibendum lorem.
-<br><br>
-Mauris tempus vestibulum eros quis dignissim. Donec vitae orci ut nisl pulvinar hendrerit eget id nibh. Duis vitae nulla non est mollis iaculis lobortis eget eros. Donec suscipit cursus sem a mattis. Fusce id aliquam nisl. Ut nunc arcu, elementum a varius et, venenatis sit amet nisl. Nunc vitae tellus vel urna congue condimentum eget sed odio. Mauris in tincidunt ligula. Nunc nec ipsum quis mi blandit malesuada. Aenean luctus varius orci, sed placerat odio aliquet volutpat. Fusce porta turpis ipsum, nec pretium eros fringilla quis. Nunc faucibus quam ut diam vestibulum, quis suscipit velit molestie. Cras pretium nunc non nisl placerat, eget suscipit sem blandit. Suspendisse ac magna id felis blandit luctus sed non nisi.
-<br><br>
-Sed in ultricies nulla. Nunc bibendum eros quam, non bibendum quam molestie quis. Duis vel justo non urna aliquet bibendum. Nullam tristique nisi neque, dapibus vestibulum nisl venenatis in. Pellentesque efficitur nunc at urna hendrerit accumsan. Nulla suscipit elit lorem, quis egestas neque tincidunt et. Suspendisse potenti. Phasellus iaculis pellentesque sapien, in interdum velit lacinia quis. Phasellus pharetra varius accumsan. Integer eget nunc elit. Donec in mattis erat. Morbi ante arcu, interdum ac magna aliquam, porta viverra quam. Etiam vel turpis iaculis, pretium diam vitae, elementum metus. Donec quis ante pulvinar, venenatis turpis ac, rhoncus nulla.
-<br><br>
-Vestibulum pretium, mi quis cursus dictum, erat magna pulvinar nunc, at aliquam nulla ligula non est. Aliquam gravida dignissim purus, a consequat augue lobortis a. Quisque elementum nisi nec varius tincidunt. Donec pretium est nibh, a gravida tortor congue et. Proin gravida ante eu erat sollicitudin vestibulum. Suspendisse hendrerit enim magna, sed euismod sem posuere et. Aenean ultrices magna dui, a suscipit erat aliquet ut. Mauris eu fringilla nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque eget eros massa. Donec non metus tincidunt, scelerisque lacus in, facilisis ligula. Donec metus eros, blandit id elit sit amet, tincidunt auctor velit. Integer ullamcorper elit eget nisi egestas placerat.
-        </div>        
+<section class="section" style="padding-top: 7rem;">
+
+  <!-- Top Nav Row -->
+  <div class="container widest">
+    <div class="row" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;">
+      
+      <!-- Left: Content Links -->
+      <div class="column six md-six sm-twelve content-links" style="display: flex; gap: 1rem; align-items: center;">
+        <a href="#" style="font-weight: bold; color: #625b5b;">Printers Notes</a>
+        <a href="#" style="font-weight: bold; color: #625b5b;">Show your Work</a>
+        <a href="#" style="font-weight: bold; color: #625b5b;">Playlists</a>
+      </div>
+      
+      <!-- Right: Search -->
+      <div class="column six md-six sm-twelve content-search" style="display: flex; justify-content: flex-end; align-items: center; gap: 0.5rem; margin-top: 10px;">
+        <input type="text" placeholder="Search content..." style="padding: 0.5rem 1rem; font-size: 1rem; max-width: 300px;">
+        <img src="img/mag.png" alt="Search" style="width: 32px; height: 32px; cursor: pointer; margin-top: -20px;">
       </div>
 
-      <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 25px 0 0 0;">
-        <div class="column eight md-six sm-twelve theGap" style="text-align: left; margin-bottom: 45px;">
-<small style="display: block; margin-bottom: 10px;"><b>Something else you might like:</b></small>
-<a href="" style="color: #D35863;"><h5>Sexual harassment in the workplace</h5></a>
-        
-        </div>
-        <div class="column four md-six sm-twelve theGap" style="text-align: left;">
-<a href="" style="color: #D35863;"><h6>🖨️ Printers Notes</h6></a>
-<a href="" style="color: #D35863;"><h6>🖼️ Show your Work</h6></a>
-<a href="" style="color: #D35863;"><h6>💽 Playlists</h6></a>        
-        </div>
-      </div>  
+    </div>
+  </div>
+
+  <hr style="margin: 0 0 2rem 0;">
+
+  <!-- Page Header -->
+  <div class="container wide">
+    <div class="row" style="text-align: center; margin-bottom: 1rem;">
+      <div class="column twelve">
+        <h1 style="margin-bottom: 1rem;">Hey look, I made you some content!</h1>
+        <p style="font-size: 1.2rem;">A little corner of the internet where I share printer tips, playlists, project highlights, and whatever else I can't keep to myself. Dive in, get inspired, and who knows, maybe learn a thing or two along the way.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Cards -->
+  <div class="container widest">
+    <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 25px 0 0 0;">
+      
+<div class="column six md-six sm-twelve theGap" style="text-align: left; margin-bottom: 45px;">
+  <div class="card">
+    <div class="content-image" style="background-image: url('img/content.png');"></div>
+    <div class="content-body">
+      <small>Show your Work</small>
+      <h4 class="content-title">The Zito's wedding Invites</h4>
+      <div class="content-meta">
+        <span>CA - Cardstock</span>
+        <span class="read-time">Read more</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column six md-six sm-twelve theGap" style="text-align: left; margin-bottom: 45px;">
+  <div class="card">
+    <div class="content-image" style="background-image: url('img/content.png');"></div>
+    <div class="content-body">
+      <small>Insights</small>
+      <h4 class="content-title">Hourly rates or flat pricing – which pricing strategy works best (for agencies)</h4>
+      <div class="content-meta">
+        <span>Gergana Encheva</span>
+        <span class="read-time">10 min read</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Show Your Work Header -->
+<div class="container widest">
+    <div class="row" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;">
+      
+      <!-- Left: Content Links -->
+      <div class="column six md-six sm-twelve content-links" style="display: flex; gap: 1rem; align-items: center;">
+        <h5><a href="#" style="font-weight: bold; color: #625b5b;">Show your Work</a></h5>
+      </div>
+      
+      <!-- Right: Search -->
+      <div class="column six md-six sm-twelve content-search" style="display: flex; justify-content: flex-end; align-items: center; gap: 0.5rem; margin-top: 10px;">
+        <a href="content">See more</a>
+      </div>
 
     </div>
-  </section>
+  </div>
 
+  <!-- Insights Cards -->
+  <div class="container widest">
+    <div class="row" style="display: flex; flex-wrap: wrap; margin: 25px 0; padding: 0 0 1rem 0;">
+      
+ <div class="column four md-four sm-twelve babyGap" style="text-align: left; margin-bottom: 45px;">
+  <div class="card">
+    <div class="content-image" style="background-image: url('img/content.png');"></div>
+    <div class="content-body">
+      <small>Show your Work</small>
+      <h4 class="content-title">Eddie Chaffer's stickers</h4>
+      <div class="content-meta">
+        <span><a href="#" target="_blank">Eddie Chaffer</a></span>
+        <span class="read-time">ST</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column four md-four sm-twelve babyGap" style="text-align: left; margin-bottom: 45px;">
+  <div class="card">
+    <div class="content-image" style="background-image: url('img/content.png');"></div>
+    <div class="content-body">
+      <small>Insights</small>
+      <h4 class="content-title">Hourly rates or flat pricing – which pricing strategy works best (for agencies)</h4>
+      <div class="content-meta">
+        <span>Gergana Encheva</span>
+        <span class="read-time">10 min read</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="column four md-four sm-twelve babyGap" style="text-align: left; margin-bottom: 45px;">
+  <div class="card">
+    <div class="content-image" style="background-image: url('img/content.png');"></div>
+    <div class="content-body">
+      <small>Insights</small>
+      <h4 class="content-title">Hourly rates or flat pricing – which pricing strategy works best (for agencies)</h4>
+      <div class="content-meta">
+        <span>Gergana Encheva</span>
+        <span class="read-time">10 min read</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+
+
+
+  <!-- Playlists Header -->
+  <div class="container wider" style=" margin-bottom: 0.5rem;">
+    <div class="row" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;">
+      
+      <div class="column six md-six sm-twelve content-links" style="display: flex; gap: 1rem; align-items: center;">
+        <h5><a href="#" style="font-weight: bold; color: #625b5b;">Playlists</a></h5>
+      </div>
+      
+      <div class="column six md-six sm-twelve content-search" style="display: flex; justify-content: flex-end; align-items: center; gap: 0.5rem; margin-top: 10px;">
+        <a href="content">See more</a>
+      </div>
+
+    </div>
+  </div>
+
+
+    <!-- Playlists -->
+  <div class="container wider" style=" padding: 0 0 5rem 0;">
+    <div class="row" style="display: flex; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap;">
+      
+      <div class="column three md-six sm-six babyGap" style="background: #e1e1e1;">
+        <a href=""><img src="img/ca.png" style="width:100%;"></a>
+      </div>
+      <div class="column three md-six sm-six babyGap" style="background: #e1e1e1;">
+        <a href=""><img src="img/ca.png" style="width:100%;"></a>
+      </div>
+      <div class="column three md-six sm-six babyGap" style="background: #e1e1e1;">
+        <a href=""><img src="img/ca.png" style="width:100%;"></a>
+      </div>
+      <div class="column three md-six sm-six babyGap" style="background: #e1e1e1;">
+        <a href=""><img src="img/ca.png" style="width:100%;"></a>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
+<!-- Subscribe Section -->
+<section style="text-align: center; padding: 3.5rem 1rem 3.25rem 1rem; background: #e1e1e1;">
+<div class="container wide" style="text-align: center; background: #e1e1e1; margin-bottom: 0;">
+  <div class="row" style="display: flex; flex-wrap: wrap; margin: 0; padding: 0;">
+    <div class="column twelve theGap">
+
+      <img src="img/subscribe-illustration.png" alt="Subscribe" style="max-width: 500px; width: 100%; margin-bottom: 0; position: relative; top: -120px;">
+      <h3 style="margin-bottom: 1rem;">Great to see you, how about I creep into your inbox once in a while?!</h3>
+      <p style="font-size: 1.1rem; margin-bottom: 2rem;">It sounds worse that it is... I'll just let you know when stuff is happening, and what's going on in my tiny corner of the print world.</p>
+      <button class="button btn-primary">Subscribe</button>
+      
+    </div>
+  </div>
+</div>
+
+
+</section>
 
 <?php include '__004-footer.php'; ?>
 <?php include '__005-java.php'; ?>
-<!--before /body -->
-  
-
-
-
-<!--before /body -->
 </body></html>
