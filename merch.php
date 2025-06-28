@@ -64,10 +64,10 @@ input.quantity:focus, input:focus, textarea:focus, select:focus, button:focus { 
     
     <div class="container widest" style="padding-top: 3rem;">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0;">
-        <div class="prodImg" style="padding:20px;">
-          <img src="img/poster.png" width="100%">
+        <div class="column five md-five sm-twelve theGap" style="align: center;">
+          <img src="img/poster.png" style="width: 100%;">
         </div>
-        <div class="prodForm">
+        <div class="column seven md-seven sm-twelve theGap">
         <p style="text-align: left; font-size: 1.25rem;">
           <i>There's always money in the banana stand.</i><br>
 <br>

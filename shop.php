@@ -34,34 +34,33 @@
     <div class="container widerest product-grid">
       <div class="row products">
         
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
-<div class='column two md-three sm-six product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 3</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 3</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 2</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 3</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 Long item name, Nothhing would ever be this long</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 3</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 3</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 2</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 3</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 Long item name, Nothhing would ever be this long</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 3</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 3</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 2</div></a></div></div>
-<div class='column two md-three sm-six product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 3</div></a></div></div>
-
+<div class='product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
+<div class='product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
+<div class='product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
+<div class='product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
+<div class='product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
+<div class='product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
+<div class='product' data-category='stickers' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
+<div class='product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
+<div class='product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
+<div class='product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
+<div class='product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
+<div class='product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
+<div class='product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
+<div class='product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
+<div class='product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
+<div class='product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
+<div class='product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
+<div class='product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
+<div class='product' data-category='stickers' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
+<div class='product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
+<div class='product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
+<div class='product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
+<div class='product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
+<div class='product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
+<div class='product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
+<div class='product' data-category='cards' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/poster.png' alt='Item 1'><div>Item 1 </div></a></div></div>
+<div class='product' data-category='posters' style='display: none;'><div class='product-item'><a href='merch.php'><img src='img/tee.png' alt='Item 1'><div>Item 2</div></a></div></div>
 
       </div>
       <button class="load-more" style="margin-bottom: 4rem;">Load More</button>
@@ -78,18 +77,27 @@ function showItems() {
   const category = $('.category-button.active').data('category');
   const $items = $('.product');
   let shown = 0;
+  let total = 0;
 
   $items.hide();
 
   $items.each(function () {
     const itemCat = $(this).data('category');
     if (category === 'all' || itemCat === category) {
+      total++; // Count total matching items
       if (shown < currentCount + perPage) {
         $(this).show();
         shown++;
       }
     }
   });
+
+  // Show or hide Load More button
+  if (shown >= total) {
+    $('.load-more').hide();
+  } else {
+    $('.load-more').show();
+  }
 }
 
 $('.load-more').on('click', function () {
@@ -104,12 +112,12 @@ $('.category-button').on('click', function () {
   showItems();
 });
 
-// Initialize
 $(document).ready(function () {
   currentCount = 0;
   showItems();
 });
 </script>
+
 
 <?php include '__004-footer.php'; ?>
 <?php include '__005-java.php'; ?>
