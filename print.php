@@ -50,31 +50,39 @@
 
 
 
-<section class="section pink">
-    <div class="container widest">
-      <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
-        <div class="home1-3"><a href=""><img src="img/ST.png" width="100%"></a></div>
-        <div class="home2-3">
-          <h5 style="margin-bottom: 15px; color: #777;">BAD ASS SHIT</h5>
-          <h2 style="margin-bottom: 25px;">Stickers! Any size, any shape, laminated to be durable, and ready in a hurry!</h2>
+<section class="section" style="background-color: #625b5b; padding-bottom: 0; position: relative; overflow: hidden;">
+
+  <div class="hero-arc-top" style="position: absolute; top: 0; left: 0; width: 100%; overflow: hidden; line-height: 0; transform: rotate(180deg);">
+    <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+      <path d="M0,0 C360,100 1080,100 1440,0 L1440,100 L0,100 Z" fill="#ffffff"></path>
+    </svg>
+  </div>
+
+    <div class="container wider">
+      <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 30px 0; align-items: center;">
+        <div class="column five md-four sm-twelve theGap"><a href=""><img src="img/ST.png" style="width: 100%;"></a></div>
+        <div class="column seven md-eight sm-twelve theGap">
+          <h5 style="margin-bottom: 15px; color: #D35863;">BAD ASS SHIT</h5>
+          <h3 style="margin-bottom: 25px; color: #fff;">Stickers! Any size, any shape, laminated to be durable - fast!</h3>
           <button class="button btn-primary">ORDER STICKERS!</button>
        </div>
       </div>
     </div>
-  </section>
+
+</section>
 
 
 
 
-    <section class="section">
-    <div class="container wide">
+    <section class="section pink">
+    <div class="container wider">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
-        <div class="home2-3" style="padding: 0 30px;">
+        <div class="column nine md-eight sm-twelve theGap" style="padding: 0 30px;">
           <h3 style="margin-bottom: 25px;">Let's talk paper!</h3>
-          <p style="margin-bottom: 6px;">We've got a few options, but my shelves have been carefully-curated. Our 'house' stocks are all top-shelf, and any upgrades are beyond next level!</p>
+          <p style="margin-bottom: 20px;">We've got a few options, but my shelves have been carefully-curated. Our 'house' stocks are all top-shelf, and any upgrades are beyond next level!</p>
           <button class="button btn-primary">PAPER CENTRAL</button>
        </div>
-       <div class="home1-3"><a href=""><img src="img/PA.png" width="100%"></a></div>
+       <div class="column three md-four sm-twelve theGap"><a href=""><img src="img/PA.png" style="width: 100%; max-width:300px;"></a></div>
       </div>
     </div>
   </section>
@@ -89,22 +97,22 @@
     <div class="container widest">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: center;">
         
-        <div class="home1-3" style="padding: 0 20px; margin: 20px 0;">
-          <a href=""><img src="img/PA.png" width="100%"></a>
+        <div class="column four md-six sm-twelve theGap" style="padding: 0 20px; margin: 20px 0;">
+          <a href=""><img src="img/PA.png" style="width: 100%; max-width:300px;"></a>
           <h5>Showcase</h5>
           <p style="margin: 20px 0 10px 0;">Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
           
         </div>
         
-        <div class="home1-3" style="padding: 0 20px; margin: 20px 0;">
-          <a href=""><img src="img/PA.png" width="100%"></a>
+        <div class="column four md-six sm-twelve theGap" style="padding: 0 20px; margin: 20px 0;">
+          <a href=""><img src="img/PA.png" style="width: 100%; max-width:300px;"></a>
           <h5>Turnaround Time</h5>
           <p style="margin: 20px 0 10px 0;">Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
           
         </div>
         
-        <div class="home1-3" style="padding: 0 20px; margin: 20px 0;">
-          <a href=""><img src="img/PA.png" width="100%"></a>
+        <div class="column four md-twelve sm-twelve theGap" style="padding: 0 20px; margin: 20px 0;">
+          <a href=""><img src="img/PA.png" style="width: 100%; max-width:300px;"></a>
           <h5>Deals!</h5>
           <p style="margin: 20px 0 10px 0;">Cheap, fast, and good-quality - it's been said that in printing, you can never have all 3. Well, let's prove them wrong!</p>
           

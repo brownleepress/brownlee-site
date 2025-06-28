@@ -66,16 +66,16 @@
 
       <div class="column one-fourth md-twelve sm-one-half" style="padding: 0; margin: 0;">
         <p>
-          <a href="#" class="footerLink">About</a>
-          <a href="#" class="footerLink">Resources</a>
-          <a href="#" class="footerLink">Contact</a>
+          <a href="about.php" class="footerLink">About</a>
+          <a href="resources.php" class="footerLink">Resources</a>
+          <a href="contact.php" class="footerLink">Contact</a>
         </p>
         <h6 style="font-weight: bold; margin-bottom: 0.5rem;">CONTENT</h6>
         <p>
-          <a href="#" class="footerLink">Printer's Notes</a>
-          <a href="#" class="footerLink">Case Studies</a>
-          <a href="#" class="footerLink">Playlists</a>
-          <a href="#" class="footerLink">ITYSL</a>
+          <a href="content.php" class="footerLink">Printer's Notes</a>
+          <a href="content.php" class="footerLink">Case Studies</a>
+          <a href="content.php" class="footerLink">Playlists</a>
+          <a href="content.php" class="footerLink">ITYSL</a>
         </p>
       </div>
       

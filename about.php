@@ -54,7 +54,7 @@
 
 
 
-    <section class="section" style="padding-top: 4rem;">
+    <section class="section" style="padding-top: 4rem; padding-bottom: 5rem;">
     <div class="container widest">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0;">
         
