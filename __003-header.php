@@ -1,4 +1,7 @@
 <header class="navbar">
+  <!-- sliding white/blur panel -->
+  <div class="navbar-background"></div>
+
   <div class="navbar-content">
     <!-- Mobile Hamburger -->
     <button class="nav-toggle" onclick="toggleMobileNav()">
@@ -21,7 +24,6 @@
       <a href="shop.php">Shop</a>
       <a href="resources.php">Resources</a>
       <a href="about.php">About</a>
-
     </nav>
 
     <!-- Desktop Actions -->
@@ -41,7 +43,8 @@
       <a href="incoming-orders.php">Orders</a>
     </nav>
     <div class="mobile-actions">
-      <a href="#" class="upload-btn">Upload</a> <a href="#" class="mobile-login-btn">Login / Register</a> 
+      <a href="#" class="upload-btn">Upload</a>
+      <a href="#" class="mobile-login-btn">Login / Register</a>
     </div>
   </div>
 </header>

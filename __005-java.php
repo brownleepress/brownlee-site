@@ -2,26 +2,15 @@
 
 <!-- START NAV BAR -->
 <script>
-let lastScrollTop = 0;
-const header = document.querySelector("header.navbar");
-
-window.addEventListener("scroll", function () {
-  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-  if (scrollTop > 0) {
-    header.classList.add("scrolled");
+const header = document.querySelector('header.navbar');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 0) {
+    header.classList.add('scrolled');
   } else {
-    header.classList.remove("scrolled");
+    header.classList.remove('scrolled');
   }
-
-  if (scrollTop > lastScrollTop) {
-    header.classList.add("hide"); // Scrolling down
-  } else {
-    header.classList.remove("hide"); // Scrolling up
-  }
-
-  lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
 });
+
 
 
 
