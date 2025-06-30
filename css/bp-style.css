@@ -49,8 +49,8 @@ body { font-size: 1.25em; line-height: 1.28; font-weight: 300; color: #625b5b; }
 
 /* ACTIONS */ .nav-actions { display: flex; align-items: center; gap: 1rem; }
 .icon { width: 30px; height: 30px; margin-top: 7px; }
-.upload-btn { padding: 0.45rem 0.8rem; background: #D35863; color: #fff; border: none; border-radius: 4px; font-size: 1.25rem; font-weight: 500; }
-.upload-btn:hover { background: #625b5b; }
+.upload-btn { padding: 0.45rem 0.8rem; background: #D35863; color: #fff; border: none; border-radius: 4px; font-size: 1.25rem; font-weight: 500; margin-top: -5px;}
+.upload-btn:hover { background: #625b5b; color: #ffffff;}
 
 /* MOBILE TOGGLE & CART */ .nav-toggle, .mobile-cart { display: none; }
 
@@ -65,7 +65,7 @@ body { font-size: 1.25em; line-height: 1.28; font-weight: 300; color: #625b5b; }
 .mobile-actions .upload-btn:hover { background: #625b5b; }
 .nav-toggle { background: transparent !important; border: none !important; box-shadow: none !important; padding: 0 !important; }
 .nav-toggle:focus { outline: none !important; }
-.mobile-login-btn {margin: 10px 0 0 15px;}
+.mobile-login-btn {margin: 5px 0 0 15px;}
 
 
 /* RESPONSIVE */ 
