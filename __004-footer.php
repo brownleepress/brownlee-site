@@ -7,7 +7,7 @@
         </div>
         <div class="column one-half md-twelve" style="align-items: center; margin-top: -70px; margin-bottom: 30px;">
           <h1 style="font-weight: 800; margin-bottom: 1rem;">Making<br>printing<br>...better</h1>
-          <p style="margin-bottom: 1rem; font-weight: 600;">Sign up for updates, deals, and new drops. I promise not tp blow up your inbox too often!</p>
+          <p style="margin-bottom: 1rem; font-weight: 600;">Sign up for updates, deals, and new drops. I promise not to blow up your inbox too often!</p>
           
             <div style="display: inline-flex; align-items: flex-start; gap: 0px;">
               <input type="email" placeholder="your@email.com" style="padding: 0.38rem 1.25rem; margin-bottom 2rem: 0; margin-top: 0px; font-size: 75%; border-top-right-radius: 0!important; border-bottom-right-radius: 0!important;" />

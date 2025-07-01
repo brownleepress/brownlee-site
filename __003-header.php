@@ -30,7 +30,7 @@
 
     <!-- Mobile Cart -->
     <div class="mobile-cart">
-      <a href="#" aria-label="Cart">
+      <a href="cart.php" aria-label="Cart">
         <svg class="icon cart-icon" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
           <rect fill="none" height="256" width="256"/>
           <path d="M184,184H69.8L41.9,30.6A8,8,0,0,0,34.1,24H16"
@@ -59,7 +59,7 @@
 
     <!-- Desktop Actions -->
     <div class="nav-actions desktop-nav">
-      <a href="#" aria-label="Cart">
+      <a href="cart.php" aria-label="Cart">
         <svg class="icon cart-icon" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
           <!-- same cart paths as above -->
           <rect fill="none" height="256" width="256"/>
