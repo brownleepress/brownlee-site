@@ -13,8 +13,8 @@
 .cart-table .desc { display: flex; align-items: center; }
 .cart-table .thumb { width: 80px; margin-right: 2rem; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5)) drop-shadow(2px 4px 3px rgba(0,0,0,0.35));}
 .cart-table .desc a { color: #625b5b; font-weight: 600; font-size: 1.25rem; text-decoration: none; }
-.cart-table .desc small { color: #666; font-size: 0.85rem; }
-.cart-table .file { display: block; margin-top: 0.25rem; font-family: monospace; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 160px; }
+.cart-table .desc small { color: #666; font-size: 0.85rem; line-height: 0.65rem;}
+.cart-table .file { display: block; margin-top: 0.25rem; font-family: monospace; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 150px; }
 .cart-table .qty { font-size: 1.4rem; text-align: center; }
 .cart-table .discount td { color: #2a7f2a; font-weight: 600; }
 .cart-table .discount .total { text-align: right; }
@@ -75,12 +75,15 @@ input[name="tip"]:checked + label.tip-option { border-color: #6AEF76; }
           </tr>
         </thead>
         <tbody>
+          
+        
           <tr>
             <td class="desc">
               <img src="img/smile.png" alt="" class="thumb" />
               <div>
-                (750) <a href="#">Stickers</a><br/>
-                <small>3x3 - 3.2 MIL Vinyl</small><br>
+                <h6><b>Stickers <small style="font-weight: 300;"></small></h6>
+                (750) <a href="#">Smile</a><br/>
+                <small>3x3 - 3 mil Vinyl</small><br/>
                 <small class="file">1751402601-0-billOnPrinter…</small>
                 <a href="#" class="editTag">[EDIT]</a> 
                 <a href="#" class="removeTag">[REMOVE]</a> 
@@ -88,12 +91,15 @@ input[name="tip"]:checked + label.tip-option { border-color: #6AEF76; }
             </td>
              <td class="totalAmt"><sup>$</sup>94</td>
           </tr>
+          
+          
           <tr>
             <td class="desc">
               <img src="img/document.png" alt="" class="thumb" />
               <div>
-                (50) <a href="#">Paper</a><br/>
-                <small>5x7 - 100# Silk</small><br/>
+                <h6><b>Paper <small style="font-weight: 300;">-- Medium</small></h6>
+                (250) <a href="#">Office Efficiency</a><br/>
+                <small>5x7 - 100# Silk - 4/4</small><br/>
                 <small class="file">1751402681-0-_tp.pdf</small>
                 <a href="#" class="editTag">[EDIT]</a> 
                 <a href="#" class="removeTag">[REMOVE]</a> 
@@ -101,6 +107,24 @@ input[name="tip"]:checked + label.tip-option { border-color: #6AEF76; }
             </td>
             <td class="totalAmt"><sup>$</sup>51</td>
           </tr>
+
+          
+          <tr>
+            <td class="desc">
+              <img src="img/document.png" alt="" class="thumb" />
+              <div>
+                <h6><b>Book <small style="font-weight: 300;">-- Perfect</small></h6>
+                (50) <a href="#">Garbio</a><br/>
+                <small>6x9 - 10pt C1S/100# Uncoated - 180pg</small><br/>
+                <small class="file">1751402681-0-_tp.pdf</small>
+                <a href="#" class="editTag">[EDIT]</a> 
+                <a href="#" class="removeTag">[REMOVE]</a> 
+              </div>
+            </td>
+            <td class="totalAmt"><sup>$</sup>51</td>
+          </tr>
+
+
 <!--          
           <tr class="discount">
             <td>Discount for multiple designs</td>
