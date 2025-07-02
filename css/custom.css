@@ -35,7 +35,7 @@ select:has(option:checked:not(:first-child)) { background-color: #c3E6C9; color:
 .qty-row.selected { background-color: #c3E6C9; }
 .qty-row:hover { background-color: #d4f0db; }
 .price { font-size: 3rem; font-weight: bold; color: #615959; margin: -18px 0 0px 0; }
-.add-to-cart-button { background-color: #c3E6C9; color: #615959; font-weight: bold; font-size: 16px; padding: 18px 20px; margin: -22px 0 0 10px; border: none; cursor: pointer; flex: 1; transition: background-color 0.2s ease; }
+.add-to-cart-button { text-decoration: none; background-color: #c3E6C9; color: #615959; font-weight: bold; font-size: 1.3rem; padding: 18px 0px; margin: -22px 0 0 10px; border: none; cursor: pointer; flex: 1; transition: background-color 0.2s ease; }
 .add-to-cart-button:hover { background-color: #d35863; color: white; }
 /* Quantity Table Enhancements */
 .qty-table { border: none; border-radius: 8px; overflow: hidden; font-family: 'Poppins', sans-serif; margin-bottom: 20px; margin-top: 0; font-size: 1.35rem; }

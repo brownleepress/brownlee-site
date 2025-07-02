@@ -283,8 +283,8 @@ pre > code { display: block; padding: 1rem 1.5rem; white-space: pre; }
 
 .btn-primary { background: #D35863; color: #fff; }
 .btn-primary:hover { background: #b84a56; color: #fff; }
-.btn-green { background: #4f4a4a; color: #6AEF76; }
-.btn-green:hover { background: #6AEF76; color: #222; }
+.btn-green { background: #6AEF76; color: #4f4a4a; }
+.btn-green:hover { background: #51c45b; color: #fff; }
 .btn-grey { background: #625b5b; color: #fff; }
 .btn-grey:hover { background: #4f4a4a; color: #fff; }
 

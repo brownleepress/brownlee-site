@@ -11,37 +11,44 @@
 .cart-table thead th { text-transform: uppercase; font-size: 0.85rem; color: #555; border-bottom: 1px solid #ddd; }
 .cart-table tbody tr + tr td { border-top: 1px solid #eee; }
 .cart-table .desc { display: flex; align-items: center; }
-.cart-table .thumb { width: 80px; margin-right: 1rem; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5)) drop-shadow(2px 4px 3px rgba(0,0,0,0.35));}
+.cart-table .thumb { width: 80px; margin-right: 2rem; filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5)) drop-shadow(2px 4px 3px rgba(0,0,0,0.35));}
 .cart-table .desc a { color: #625b5b; font-weight: 600; font-size: 1.25rem; text-decoration: none; }
 .cart-table .desc small { color: #666; font-size: 0.85rem; }
 .cart-table .file { display: block; margin-top: 0.25rem; font-family: monospace; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 160px; }
-.cart-table .qty input { width: 4rem; padding: 0.3rem; font-size: 1rem; text-align: center; }
+.cart-table .qty { font-size: 1.4rem; text-align: center; }
 .cart-table .discount td { color: #2a7f2a; font-weight: 600; }
 .cart-table .discount .total { text-align: right; }
 .cart-table .total { text-align: right; font-weight: 600; }
 .cart-table .totalAmt { text-align: right; font-weight: 600; font-size: 1.5rem;}
 .cart-table .totalAmt sup { font-size: 1rem; vertical-align: 0.3em; }
-.cart-summary { background: #f8f8f8; padding: 2rem; border-radius: 8px; text-align: center; }
+.cart-summary { background: #eaeaea; padding: 2rem; border-radius: 8px; text-align: center; }
 .cart-summary h2 { font-size: 1.75rem; margin-bottom: 1.5rem; }
 .cart-summary h2 span { color: #333; }
 .cart-summary h2 span sup { font-size: 1rem; vertical-align: 0.5em; }
-@media (max-width: 768px) { .cart-summary { margin-top: 2rem; } }
+@media (max-width: 750px) { 
+  .cart-summary { margin-top: 2rem; } 
+  .cart-table .thumb { width: 50px; }
+}
 
-.tip-header { font-size: 1.5rem; text-align: left;font-weight: 600; color: #625b5b; margin-bottom: 0.5rem; }
+
+
+.tip-header { font-size: 1.5rem; text-align: left;font-weight: 600; color: #625b5b; margin-bottom: 0.5rem; margin-top: 0;}
+@media (min-width: 768px) { .tip-header { margin-top: 4rem; } }
 .tip-options { display: flex; gap: 1rem; margin-bottom: 0.75rem; }
 input[name="tip"] { display: none; }
-.tip-option { flex: 1; border: 6px solid #f8f8f8; border-radius: 8px; padding: 1rem; text-align: center; cursor: pointer; transition: border-color .3s; }
+.tip-option { flex: 1; border: 6px solid #eaeaea; border-radius: 8px; padding: 1rem; text-align: center; cursor: pointer; transition: border-color .3s; }
 input[name="tip"]:checked + label.tip-option { border-color: #6AEF76; }
 .tip-amount { display: block; font-size: 1.5rem; font-weight: 600; line-height: 1; }
 .tip-amount sup { font-size: 1rem; vertical-align: 0.3em; }
 .tip-label { display: block; font-size: 0.85rem; line-height: 0.9rem; margin-top: 0.25rem; color: #555; }
-@media (max-width: 1100px) { .tip-options { margin: 0 2rem 0.5rem; } }
 
-.tip-option { flex:1; border:6px solid #f8f8f8; border-radius:8px; padding:1rem; text-align:center; cursor:pointer; transition:border-color .3s; position:relative; overflow:hidden; }
+
+.tip-option { flex:1; border:6px solid #eaeaea; border-radius:8px; padding:1rem; text-align:center; cursor:pointer; transition:border-color .3s; position:relative; overflow:hidden; }
 .tip-peek .peek-img { position: absolute; bottom: -40px; left: -80px; width: 80px; transform: rotate(-20deg); transition: left .4s ease, bottom .4s ease, transform .4s ease; pointer-events: none; }
 .tip-peek:hover .peek-img { bottom: -10px; left: -35px; transform: rotate(0deg); }
 
-
+.editTag, .removeTag {color: #D35863!important; font-size: 0.85rem!important;}
+.editTag:hover, .removeTag:hover {color: #b84a56!important; font-size: 0.85rem!important;}
 
 </style>
 
@@ -58,14 +65,13 @@ input[name="tip"]:checked + label.tip-option { border-color: #6AEF76; }
 <section class="section" style="padding-top: 9rem;">
 <div class="container wider">
   <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0;">
-    <div class="column eight theGap">
-<h3 class="tip-header">Cart</h3>
+    <div class="column eight md-six sm-twelve babyGap">
+<h3 style="text-align: left;">Cart</h3>
     <table class="cart-table">
         <thead>
           <tr>
-            <th class="desc">Description</th>
-            <th class="qty">Quantity</th>
-            <th class="total">Total</th>
+            <th style="text-align: left;">Description</th>
+            <th style="text-align: right;">Total</th>
           </tr>
         </thead>
         <tbody>
@@ -73,33 +79,31 @@ input[name="tip"]:checked + label.tip-option { border-color: #6AEF76; }
             <td class="desc">
               <img src="img/smile.png" alt="" class="thumb" />
               <div>
-                <a href="#">ST - Stickers</a><br/>
+                (750) <a href="#">Stickers</a><br/>
                 <small>3x3 - 3.2 MIL Vinyl</small><br>
                 <small class="file">1751402601-0-billOnPrinter…</small>
+                <a href="#" class="editTag">[EDIT]</a> 
+                <a href="#" class="removeTag">[REMOVE]</a> 
               </div>
             </td>
-            <td class="qty">
-              <input type="number" value="100" min="1" />
-            </td>
-            <td class="totalAmt"><sup>$</sup>94</td>
+             <td class="totalAmt"><sup>$</sup>94</td>
           </tr>
           <tr>
             <td class="desc">
               <img src="img/document.png" alt="" class="thumb" />
               <div>
-                <a href="#">PA - Paper</a><br/>
+                (50) <a href="#">Paper</a><br/>
                 <small>5x7 - 100# Silk</small><br/>
                 <small class="file">1751402681-0-_tp.pdf</small>
+                <a href="#" class="editTag">[EDIT]</a> 
+                <a href="#" class="removeTag">[REMOVE]</a> 
               </div>
-            </td>
-            <td class="qty">
-              <input type="number" value="50" min="1" />
             </td>
             <td class="totalAmt"><sup>$</sup>51</td>
           </tr>
 <!--          
           <tr class="discount">
-            <td colspan="2">Discount for multiple designs</td>
+            <td>Discount for multiple designs</td>
             <td class="total">-<sup>$</sup>5</td>
           </tr>
 -->
@@ -107,11 +111,10 @@ input[name="tip"]:checked + label.tip-option { border-color: #6AEF76; }
       </table>
     </div>
 
-    <!-- CART SUMMARY (4 cols) -->
-    <div class="column four" style="margin-bottom: 30px;">
 
+    <div class="column four md-six sm-twelve babyGap">
 
-
+<!-- TIP  -->
 <h3 class="tip-header" style="text-align: center;">Leave me a tip</h3>
 <div class="tip-options">
   <input type="radio" id="tip0"  name="tip" value="0"  checked hidden>
@@ -145,6 +148,21 @@ input[name="tip"]:checked + label.tip-option { border-color: #6AEF76; }
 
 </section>
 
+
+
+
+
+<section class="section" style="padding-top: 0rem;">
+<div class="container wider">
+  <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0;">
+    <div class="column three babyGap" style="background: #e1e1e1; min-height: 100px; padding: 0; margin: 0;display: flex; flex-direction: column; justify-content: center; text-align: center;">Col 1</div>
+    <div class="column three babyGap" style="background: #eaeaea; min-height: 100px; padding: 0; margin: 0;display: flex; flex-direction: column; justify-content: center; text-align: center;">Col 1</div>
+    <div class="column three babyGap" style="background: #e1e1e1; min-height: 100px; padding: 0; margin: 0;display: flex; flex-direction: column; justify-content: center; text-align: center;">Col 1</div>
+    <div class="column three babyGap" style="background: #eaeaea; min-height: 100px; padding: 0; margin: 0;display: flex; flex-direction: column; justify-content: center; text-align: center;">Col 1</div>
+    
+  </div>
+</div>
+</section>
 
 
 

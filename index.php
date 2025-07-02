@@ -10,7 +10,7 @@
 
 <section class="section" style="background-size: 50%; background-repeat: repeat; background-image: url(img/manYel.jpg); padding-bottom: 0; position: relative; overflow: hidden;">
   <div class="container widest" style="padding-top: 6rem;">
-    <div class="row" style="align-items: center; display: flex; flex-wrap: wrap; align-items: center; padding-bottom: 4rem;">
+    <div class="row" style="display: flex; flex-wrap: wrap; align-items: center; padding-bottom: 4rem;">
       <div class="column seven md-six sm-twelve">
         <img src="img/seducer.png" width="100%">
       </div>

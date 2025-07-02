@@ -183,7 +183,7 @@ function selectCustomQty() {
 }
 </script>
 
-
+<!--
     <hr style="border: none; border-top: 1px solid #ccc; margin: -25px 0;">
 
 <h6 style="font-size: 0.92rem; padding-bottom: 6px; text-align: left; margin-top: 0px;">UPLOAD FILES</h6>
@@ -196,7 +196,7 @@ function selectCustomQty() {
     <textarea id="message" name="message" rows="6" placeholder="Type your message here..." style="width: 100%; padding: 12px; font-size: 1rem; height: 4.1rem;"></textarea>
   </div>
 </div>
-
+-->
 
 
 
@@ -204,7 +204,7 @@ function selectCustomQty() {
 
 <div class="final-row" style="padding-top: 1rem;">
   <div class="price"><span style="font-size: 70%; vertical-align: top;">$</span>45</div>
-  <button class="add-to-cart-button">ADD TO CART</button>
+  <a href="order-upload.php" class="add-to-cart-button">Continue</a>
 </div>
 
 
