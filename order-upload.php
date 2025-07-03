@@ -12,6 +12,17 @@
 .upload-instruction { margin-top: 1rem; font-size: 1rem; color: #333; }
 .img-container { display: inline-block; filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.45)); }
 .imgPrev { width: 100%; max-width:400px; max-height: 400px; display: block; }
+
+.switch { position: relative; display: inline-block; width: 40px; height: 20px; }
+.switch input { opacity: 0; width: 0; height: 0; }
+.slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .4s; border-radius: 20px; }
+.slider:before { position: absolute; content: ""; height: 16px; width: 16px; left: 2px; bottom: 2px; background: #fff; transition: .4s; border-radius: 50%; }
+.switch input:checked + .slider { background-color: #6AEF76; }
+.switch input:checked + .slider:before { transform: translateX(20px); }
+.switch-label { font-size: 0.85rem; color: #625b5b; vertical-align: middle; margin-right: 0.5rem; }
+#first-section.dark { background-color: #444 !important; color: #fff !important; }
+
+
 </style>
 
 
@@ -20,7 +31,7 @@
 <?php include '__003-header.php'; ?>  
     
 
-  <section class="section" style="padding-top: 8rem; padding-bottom: 5rem;">
+  <section id="first-section" class="section" style="padding-top: 6rem; padding-bottom: 5rem;">
     <div class="container wide">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0;">
         <div class="column twelve" style="">
@@ -41,8 +52,16 @@
 <!-- ORDER UPLOADER END -->
 
 <!-- UPLOADED IMAGE START -->
-<div id="uploaded-image" style="margin-top: 25px; width: 100%; display: none;"> 
-  <div class="img-container"><img src="img/smile.png" class="imgPrev" id="preview-image"></div>
+<div id="uploaded-image" style="margin-top: 0px; width: 100%; display: none;"> 
+<!-- SWITCH -->
+<div class="bg-toggle" style="text-align: right; margin-bottom: 1rem;">
+  <label for="bgToggle" class="switch-label">Dark background</label>
+  <label class="switch">
+    <input type="checkbox" id="bgToggle" />
+    <span class="slider"></span>
+  </label>
+</div>
+  <div class="img-container"><img src="img/blank.png" class="imgPrev" id="preview-image"></div>
   <br><a href="#" id="remove-upload"><small>remove</small></a>
 
   <div style="margin-top: 25px;"> 
@@ -75,20 +94,19 @@
   
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const uploader = document.getElementById('order-uploader');
-    const uploaded = document.getElementById('uploaded-image');
-    const preview = document.getElementById('preview-image');
-    const fileInput = document.getElementById('file-upload');
-    const removeBtn = document.getElementById('remove-upload');
+    const uploader   = document.getElementById('order-uploader');
+    const uploaded   = document.getElementById('uploaded-image');
+    const preview    = document.getElementById('preview-image');
+    const fileInput  = document.getElementById('file-upload');
+    const removeBtn  = document.getElementById('remove-upload');
+    const bgToggle   = document.getElementById('bgToggle');
+    const section    = document.getElementById('first-section');
 
     fileInput.addEventListener('change', function () {
       if (this.files && this.files[0]) {
         const reader = new FileReader();
-        reader.onload = function (e) {
-          preview.src = e.target.result;
-        };
+        reader.onload = e => preview.src = e.target.result;
         reader.readAsDataURL(this.files[0]);
-
         uploader.style.display = 'none';
         uploaded.style.display = 'block';
       }
@@ -96,15 +114,24 @@
 
     removeBtn.addEventListener('click', function (e) {
       e.preventDefault();
-
       fileInput.value = "";
-      preview.src = "img/smile.png";
+      preview.src      = "img/smile.png";
       uploader.style.display = 'block';
       uploaded.style.display = 'none';
+
+      // ** Reset toggle back to light mode **
+      if (bgToggle.checked) {
+        bgToggle.checked = false;
+        section.classList.remove('dark');
+      }
+    });
+
+    // existing dark-mode toggle logic
+    bgToggle.addEventListener('change', function() {
+      section.classList.toggle('dark', this.checked);
     });
   });
 </script>
-
 
 
 <!--before /body -->

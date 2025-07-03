@@ -86,7 +86,7 @@
 
     <div style="margin: 2rem 0 -35 0; padding: 1rem 2rem 2rem 2rem; font-size: 75%; text-align: center;">
       <p> ---------------------------------<br><br>
-        &copy; 2025 Brownlee Press | <a href="#" style="color: white; text-decoration: underline;">Terms</a>
+        &copy; 2025 Brownlee Press | <a href="terms.php" style="color: white; text-decoration: underline;">Terms</a>
       </p>
     </div>
 

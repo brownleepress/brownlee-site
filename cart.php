@@ -25,6 +25,9 @@
 .cart-summary h2 { font-size: 1.75rem; margin-bottom: 1.5rem; }
 .cart-summary h2 span { color: #333; }
 .cart-summary h2 span sup { font-size: 1rem; vertical-align: 0.5em; }
+
+.editTag, .removeTag {color: #D35863!important; font-size: 0.85rem!important;}
+.editTag:hover, .removeTag:hover {color: #b84a56!important; font-size: 0.85rem!important;}
 @media (max-width: 750px) { 
   .cart-summary { margin-top: 2rem; } 
   .cart-table .thumb { width: 50px; }
@@ -41,14 +44,27 @@ input[name="tip"]:checked + label.tip-option { border-color: #6AEF76; }
 .tip-amount { display: block; font-size: 1.5rem; font-weight: 600; line-height: 1; }
 .tip-amount sup { font-size: 1rem; vertical-align: 0.3em; }
 .tip-label { display: block; font-size: 0.85rem; line-height: 0.9rem; margin-top: 0.25rem; color: #555; }
-
-
 .tip-option { flex:1; border:6px solid #eaeaea; border-radius:8px; padding:1rem; text-align:center; cursor:pointer; transition:border-color .3s; position:relative; overflow:hidden; }
+
+
+
+/* ON HOVER VERSION
 .tip-peek .peek-img { position: absolute; bottom: -40px; left: -80px; width: 80px; transform: rotate(-20deg); transition: left .4s ease, bottom .4s ease, transform .4s ease; pointer-events: none; }
 .tip-peek:hover .peek-img { bottom: -10px; left: -35px; transform: rotate(0deg); }
+*/
 
-.editTag, .removeTag {color: #D35863!important; font-size: 0.85rem!important;}
-.editTag:hover, .removeTag:hover {color: #b84a56!important; font-size: 0.85rem!important;}
+/* ON CLICK VERSION */
+@keyframes peekCycle {
+  /* 0–25%: pop in */
+  0%   { bottom: -40px; left: -80px; transform: rotate(-20deg); }
+  25%  { bottom: -10px; left: -35px; transform: rotate(0deg); }
+  /* 25–75%: hold */
+  75%  { bottom: -10px; left: -35px; transform: rotate(0deg); }
+  /* 75–100%: slip back out */
+  100% { bottom: -40px; left: -80px; transform: rotate(-20deg); }
+}
+.tip-peek .peek-img { position: absolute; bottom: -40px; left: -80px; width: 80px; transform: rotate(-20deg); animation-fill-mode: forwards; }
+
 
 </style>
 
@@ -194,6 +210,32 @@ input[name="tip"]:checked + label.tip-option { border-color: #6AEF76; }
 <?php include '__005-java.php'; ?>
 <!--before /body -->
   
+
+
+<script>
+  const peekImgs = document.querySelectorAll('.peek-img');
+  let peekTimeout;
+
+  document.querySelectorAll('.tip-option').forEach(option => {
+    option.addEventListener('click', () => {
+      clearTimeout(peekTimeout);
+      peekImgs.forEach(img => {
+        img.style.animation = 'none';
+        void img.offsetWidth; // reset
+      });
+      const img = option.querySelector('.peek-img');
+      if (img) {
+        // wait time
+        peekTimeout = setTimeout(() => {
+          img.style.animation = 'peekCycle 2s ease';
+        }, 500);
+      }
+    });
+  });
+</script>
+
+
+
 
 
 

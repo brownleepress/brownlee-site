@@ -23,7 +23,7 @@
     
     
     
-    <div class="container widest" style="padding-top: 3rem;">
+    <div class="container wider" style="padding-top: 3rem;">
       <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0;">
         <div class="prodImg" style="padding:20px;">
           <img src="img/CA.png" width="100%">
@@ -331,109 +331,149 @@ function selectCustomQty() {
 
 
 
-<!-- PAPER --->
- <section class="section" style="margin-bottom:0; padding-bottom: 0;">
-    <div class="container widest">
-      <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: top;">
-        
-        <div class="column one-third md-six sm-twelve theGap" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
-          <a href=""><img src="img/_STAN.png" width="100%" style="max-width:300px;"></a>
-          <h5 style="color: #D35863;">Standard</h5>
-          <p style="margin: 20px 0 25px 0;">
-            100# cover, uncoated or satin-coated. It's the go-to for solid, high-quality, bright white paper that's ready to get the job done and look great doing it.
-          </p>
-<div class="paper-info-row">
-  <img src="img/100U.png" alt="100# Uncoated" />
-  <div class="paper-info-text">
-    <h6>100# Uncoated</h6>
-    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
-  </div>
-</div>
 
-<div class="paper-info-row">
-  <img src="img/100S.png" alt="100# Uncoated" />
-  <div class="paper-info-text">
-    <h6>100# Silk</h6>
-    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
-  </div>
-</div>
-        
+  
+
+
+
+
+<!-- PAPER -->
+<section class="section" style="margin-bottom:0; padding-bottom: 0;">
+  <div class="container widest">
+    <div class="row" style="text-align: center; display: flex; flex-wrap: wrap; margin: 0; padding: 0; align-items: top;">
+
+      <!-- STANDARD -->
+      <div class="column one-third md-twelve sm-twelve theGap" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
+        <!-- STANDARD DEFINITION-->
+        <a href=""><img src="img/_STAN.png" width="100%" style="max-width:300px;"></a>
+        <h5 style="color: #D35863;">Standard</h5>
+        <p style="margin: 20px 0 25px 0;">
+          100# cover, uncoated or satin-coated. It's the go-to for solid, high-quality, bright white paper that's ready to get the job done and look great doing it.
+        </p>
+
+        <!-- STANDARD OPTION 1-->
+        <div class="paper-info-row">
+          <img src="img/100U.png" alt="100# Uncoated" />
+          <div class="paper-info-text">
+            <h6>100# Uncoated</h6>
+            <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+          </div>
         </div>
-        
-        <div class="column one-third md-six sm-twelve theGap" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
-          <a href=""><img src="img/_UPGRD.png" width="100%" style="max-width:300px;"></a>
-          <h5 style="color: #D35863;">Premium</h5>
-          <p style="margin: 20px 0 25px 0;">
-            Curated upgrades - it's the same good stuff... but better.
-          </p>
-<div class="paper-info-row">
-  <img src="img/120Silk.png" alt="100# Uncoated" />
-  <div class="paper-info-text">
-    <h6>120# Silk</h6>
-    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
-  </div>
-</div>
 
-<div class="paper-info-row">
-  <img src="img/130U.png" alt="100# Uncoated"/>
-  <div class="paper-info-text">
-    <h6>130# Uncoated</h6>
-    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
-  </div>
-</div>
-
-<div class="paper-info-row">
-  <img src="img/c1s.png" alt="100# Uncoated" />
-  <div class="paper-info-text">
-    <h6>Coated-1-Side</h6>
-    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
-  </div>
-</div>
-
-<div class="paper-info-row">
-  <img src="img/c2s.png" alt="100# Uncoated" />
-  <div class="paper-info-text">
-    <h6>Coated-2-Sides</h6>
-    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
-  </div>
-</div>
-
+        <!-- STANDARD OPTION 2-->
+        <div class="paper-info-row">
+          <img src="img/100S.png" alt="100# Uncoated" />
+          <div class="paper-info-text">
+            <h6>100# Silk</h6>
+            <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+          </div>
         </div>
-        
-        <div class="column one-third md-twelve theGap" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
-          <a href=""><img src="img/_FREN.png" width="100%" style="max-width:300px;"></a>
-          <h5 style="color: #D35863;">Recycled</h5>
-          <p style="margin: 20px 0 25px 0;">
-            French Paper Co. - Made in Michigan. We offer 3 flavors of 100# cover, each with recycled specks and flecks, making every sheet unique. 
-          </p>
- <div class="paper-info-row">
-  <img src="img/FR_SW.png" alt="100# Uncoated" />
-  <div class="paper-info-text">
-    <h6>Starch White</h6>
-    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
-  </div>
-</div>
-
-<div class="paper-info-row">
-  <img src="img/FR_MB.png" alt="100# Uncoated" />
-  <div class="paper-info-text">
-    <h6>Madero Beach</h6>
-    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
-  </div>
-</div>
-
-<div class="paper-info-row">
-  <img src="img/FR_MY.png" alt="100# Uncoated" />
-  <div class="paper-info-text">
-    <h6>Manila Yellow</h6>
-    <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
-  </div>
-</div>
-
-        
       </div>
+
+      <!-- PREMIUM -->
+      <div class="column one-third md-twelve sm-twelve theGap" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
+        <!-- PREMIUM DEFINITION -->
+        <a href=""><img src="img/_UPGRD.png" width="100%" style="max-width:300px;"></a>
+        <h5 style="color: #D35863;">Premium</h5>
+        <p style="margin: 20px 0 25px 0;">
+          Curated upgrades - it's the same good stuff... but better.
+        </p>
+
+        <!-- PREMIUM OPTION 1 -->
+        <div class="paper-info-row">
+          <img src="img/120Silk.png" alt="120# Silk" />
+          <div class="paper-info-text">
+            <h6>120# Silk</h6>
+            <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+          </div>
+        </div>
+
+        <!-- PREMIUM OPTION 2 -->
+        <div class="paper-info-row">
+          <img src="img/130U.png" alt="130# Uncoated" />
+          <div class="paper-info-text">
+            <h6>130# Uncoated</h6>
+            <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+          </div>
+        </div>
+
+        <!-- PREMIUM OPTION 3 -->
+        <div class="paper-info-row">
+          <img src="img/c1s.png" alt="Coated-1-Side" />
+          <div class="paper-info-text">
+            <h6>Coated-1-Side</h6>
+            <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+          </div>
+        </div>
+
+        <!-- PREMIUM OPTION 4 -->
+        <div class="paper-info-row">
+          <img src="img/c2s.png" alt="Coated-2-Sides" />
+          <div class="paper-info-text">
+            <h6>Coated-2-Sides</h6>
+            <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RECYCLED -->
+      <div class="column one-third md-twelve sm-twelve theGap" style="padding: 0 20px; margin: 20px 0; font-size: 1.2rem;">
+        <!-- RECYCLED DEFINITION-->
+        <a href=""><img src="img/_FREN.png" width="100%" style="max-width:300px;"></a>
+        <h5 style="color: #D35863;">Recycled</h5>
+        <p style="margin: 20px 0 25px 0;">
+          French Paper Co. - Made in Michigan. We offer 3 flavors of 100# cover, each with recycled specks and flecks, making every sheet unique.
+        </p>
+
+        <!-- RECYCLED OPTION 1 -->
+        <div class="paper-info-row">
+          <img src="img/FR_SW.png" alt="Starch White" />
+          <div class="paper-info-text">
+            <h6>Starch White</h6>
+            <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+          </div>
+        </div>
+
+        <!-- RECYCLED OPTION 2 -->
+        <div class="paper-info-row">
+          <img src="img/FR_MB.png" alt="Madero Beach" />
+          <div class="paper-info-text">
+            <h6>Madero Beach</h6>
+            <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+          </div>
+        </div>
+
+        <!-- RECYCLED OPTION 3 -->
+        <div class="paper-info-row">
+          <img src="img/FR_MY.png" alt="Manila Yellow" />
+          <div class="paper-info-text">
+            <h6>Manila Yellow</h6>
+            <p>Smooth, bright white, basic, but classic. This is the best choice for most pieces, says me.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
